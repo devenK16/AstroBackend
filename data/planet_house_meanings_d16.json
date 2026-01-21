@@ -1,0 +1,457 @@
+{
+  "chart_type": "D16",
+  "chart_name": "Shodasamsa",
+  "purpose": "Health and Wellness",
+  "meanings": {
+    "Sun": {
+      "1": {
+        "positive": "Strong physical constitution and vitality. Good health through leadership and active lifestyle.",
+        "negative": "May face health issues related to heart, eyes, or bones. Need to maintain active lifestyle and avoid excessive heat."
+      },
+      "2": {
+        "positive": "Good health and strong face. Healthy eating habits and good digestion.",
+        "negative": "May face health issues related to face, mouth, or eyes. Need to maintain good oral and eye health."
+      },
+      "3": {
+        "positive": "Strong arms and good communication health. Active and energetic lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or communication organs. Need regular exercise."
+      },
+      "4": {
+        "positive": "Good health related to chest and heart. Strong emotional and physical health.",
+        "negative": "May face health issues related to chest, heart, or mother-related health. Need to maintain heart health."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system.",
+        "negative": "May face health issues related to stomach, digestion, or children-related health. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles and maintaining discipline.",
+        "negative": "May face health issues, diseases, or enemies-related health problems. Need to maintain strong immune system."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership and relationship health.",
+        "negative": "May face health issues related to reproductive organs or partnership health. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges.",
+        "negative": "May face serious health issues, chronic diseases, or transformation-related health problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Good health through dharma and higher knowledge. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or long-distance health problems. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and active lifestyle. Good physical fitness.",
+        "negative": "May face health issues related to career stress or physical strain. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections and active lifestyle. Strong overall health.",
+        "negative": "May face health issues related to friends or social health. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality and foreign connections. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, or hidden health problems. Need regular health checkups."
+      }
+    },
+    "Moon": {
+      "1": {
+        "positive": "Good emotional and physical health. Strong constitution and vitality.",
+        "negative": "May face health issues related to mind, emotions, or blood. Need to maintain emotional balance."
+      },
+      "2": {
+        "positive": "Good health and strong face. Healthy eating habits and good digestion.",
+        "negative": "May face health issues related to face, mouth, or digestive system. Need to maintain good eating habits."
+      },
+      "3": {
+        "positive": "Good health related to arms and communication. Active and healthy lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or communication organs. Need regular exercise."
+      },
+      "4": {
+        "positive": "Good health related to chest and emotional well-being. Strong heart and emotional health.",
+        "negative": "May face health issues related to chest, heart, or emotional health. Need to maintain emotional balance."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive and emotional system.",
+        "negative": "May face health issues related to stomach, digestion, or emotional eating. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles.",
+        "negative": "May face health issues, diseases, or water-related health problems. Need to maintain strong immune system."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership and emotional health.",
+        "negative": "May face health issues related to reproductive organs or emotional health. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges.",
+        "negative": "May face serious health issues, chronic diseases, or water-related health problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Good health through dharma and emotional well-being. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or emotional health. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and public recognition. Good physical and emotional fitness.",
+        "negative": "May face health issues related to career stress or emotional strain. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections. Strong overall health and emotional well-being.",
+        "negative": "May face health issues related to friends or social health. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality. Strong recovery abilities and emotional balance.",
+        "negative": "May face health issues, expenses, or hidden emotional health problems. Need regular health checkups."
+      }
+    },
+    "Mars": {
+      "1": {
+        "positive": "Strong physical constitution and vitality. Good health through active lifestyle and exercise.",
+        "negative": "May face health issues related to blood, injuries, or accidents. Need to avoid accidents and maintain safety."
+      },
+      "2": {
+        "positive": "Good health and strong face. Healthy eating habits and good digestion.",
+        "negative": "May face health issues related to face, mouth, or injuries. Need to maintain good oral health and avoid accidents."
+      },
+      "3": {
+        "positive": "Strong arms and good physical health. Active and energetic lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or injuries. Need regular exercise and safety measures."
+      },
+      "4": {
+        "positive": "Good health related to chest and heart. Strong physical and emotional health.",
+        "negative": "May face health issues related to chest, heart, or injuries. Need to maintain heart health and avoid accidents."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system.",
+        "negative": "May face health issues related to stomach, digestion, or injuries. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Excellent immune system. Good health through overcoming obstacles and maintaining discipline.",
+        "negative": "May face health issues, diseases, injuries, or enemies-related health problems. Need to maintain strong immune system and avoid conflicts."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership and physical health.",
+        "negative": "Strong Manglik dosha. May face health issues related to reproductive organs or partnership health. Both partners being Manglik can help."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges.",
+        "negative": "May face serious health issues, chronic diseases, injuries, or accidents. Need regular health checkups and safety measures."
+      },
+      "9": {
+        "positive": "Good health through dharma and active lifestyle. Strong physical and spiritual health.",
+        "negative": "May face health issues related to father or injuries. Need to maintain overall health and avoid accidents."
+      },
+      "10": {
+        "positive": "Strong health through career and active lifestyle. Good physical fitness.",
+        "negative": "May face health issues related to career stress, injuries, or physical strain. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections and active lifestyle. Strong overall health.",
+        "negative": "May face health issues related to friends or injuries. Need to maintain social health and avoid conflicts."
+      },
+      "12": {
+        "positive": "Good health through transformation. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, injuries, or hidden health problems. Need regular health checkups and safety measures."
+      }
+    },
+    "Mercury": {
+      "1": {
+        "positive": "Good health through communication and mental activity. Strong constitution and mental health.",
+        "negative": "May face health issues related to nervous system, skin, or communication organs. Need to maintain mental health."
+      },
+      "2": {
+        "positive": "Good health and strong face. Healthy eating habits and good communication health.",
+        "negative": "May face health issues related to face, mouth, or communication organs. Need to maintain good oral and communication health."
+      },
+      "3": {
+        "positive": "Excellent health related to arms and communication. Active and healthy lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or communication organs. Need regular exercise and communication health."
+      },
+      "4": {
+        "positive": "Good health related to chest and mental well-being. Strong heart and mental health.",
+        "negative": "May face health issues related to chest, heart, or mental health. Need to maintain mental balance."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive and mental system.",
+        "negative": "May face health issues related to stomach, digestion, or mental eating. Need to maintain digestive and mental health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles and mental discipline.",
+        "negative": "May face health issues, diseases, or nervous system problems. Need to maintain strong immune system and mental health."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership and mental health.",
+        "negative": "May face health issues related to reproductive organs or mental health. Need to maintain reproductive and mental health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges.",
+        "negative": "May face serious health issues, chronic diseases, or nervous system problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Good health through dharma and mental well-being. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or mental health. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and mental activity. Good physical and mental fitness.",
+        "negative": "May face health issues related to career stress or mental strain. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections. Strong overall health and mental well-being.",
+        "negative": "May face health issues related to friends or social mental health. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality and mental well-being. Strong recovery abilities and mental balance.",
+        "negative": "May face health issues, expenses, or hidden mental health problems. Need regular health checkups."
+      }
+    },
+    "Jupiter": {
+      "1": {
+        "positive": "Excellent health through wisdom and dharma. Strong constitution, vitality, and overall well-being.",
+        "negative": "May face health issues if Jupiter is weak. Need to maintain health through wisdom and proper lifestyle."
+      },
+      "2": {
+        "positive": "Good health and strong face. Healthy eating habits and good digestion through wisdom.",
+        "negative": "May face initial health issues. Need patience and long-term health planning."
+      },
+      "3": {
+        "positive": "Good health related to arms and communication. Active and healthy lifestyle through wisdom.",
+        "negative": "May face health issues related to arms, shoulders, or communication organs. Need regular exercise."
+      },
+      "4": {
+        "positive": "Good health related to chest and heart. Strong heart and emotional health through wisdom.",
+        "negative": "May face health issues related to chest, heart, or emotional health. Need to maintain heart health."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system through wisdom.",
+        "negative": "May face health issues related to stomach, digestion, or children-related health. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles and maintaining wisdom.",
+        "negative": "May face health issues, diseases, or liver problems. Need to maintain strong immune system."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership and overall health through wisdom.",
+        "negative": "May face health issues related to reproductive organs or partnership health. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges through wisdom.",
+        "negative": "May face serious health issues, chronic diseases, or liver problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Excellent health through dharma and wisdom. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or long-distance health problems. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and wisdom. Good physical fitness through dharma.",
+        "negative": "May face health issues related to career stress or physical strain. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections and wisdom. Strong overall health.",
+        "negative": "May face health issues related to friends or social health. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality and wisdom. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, or hidden health problems. Need regular health checkups."
+      }
+    },
+    "Venus": {
+      "1": {
+        "positive": "Good health through beauty and harmony. Strong constitution and vitality.",
+        "negative": "May face health issues related to reproductive organs, diabetes, or excessive indulgence. Need to maintain balance."
+      },
+      "2": {
+        "positive": "Good health and strong face. Healthy eating habits and good digestion.",
+        "negative": "May face health issues related to face, mouth, or diabetes. Need to maintain good oral health and control sugar."
+      },
+      "3": {
+        "positive": "Good health related to arms and communication. Active and healthy lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or communication organs. Need regular exercise."
+      },
+      "4": {
+        "positive": "Good health related to chest and emotional well-being. Strong heart and emotional health.",
+        "negative": "May face health issues related to chest, heart, or reproductive organs. Need to maintain heart and reproductive health."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system.",
+        "negative": "May face health issues related to stomach, digestion, or reproductive organs. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles.",
+        "negative": "May face health issues, diseases, or reproductive organ problems. Need to maintain strong immune system."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership and overall health.",
+        "negative": "May face health issues related to reproductive organs, diabetes, or partnership health. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges.",
+        "negative": "May face serious health issues, chronic diseases, or reproductive organ problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Good health through dharma and harmony. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or reproductive organs. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and harmony. Good physical fitness.",
+        "negative": "May face health issues related to career stress or reproductive organs. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections. Strong overall health and harmony.",
+        "negative": "May face health issues related to friends or social health. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality and harmony. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, or hidden reproductive health problems. Need regular health checkups."
+      }
+    },
+    "Saturn": {
+      "1": {
+        "positive": "Stable health through discipline and patience. Strong constitution through long-term care.",
+        "negative": "May face health issues related to bones, joints, or chronic diseases. Need to maintain discipline and regular health checkups."
+      },
+      "2": {
+        "positive": "Good health through patience and discipline. Healthy eating habits through careful planning.",
+        "negative": "May face initial delays or expenses in health. Think careful health planning to avoid minor health setbacks."
+      },
+      "3": {
+        "positive": "Stable health related to arms and communication. Good health through patience.",
+        "negative": "May face health issues related to arms, shoulders, or chronic problems. Need regular exercise and patience."
+      },
+      "4": {
+        "positive": "Good health related to chest and heart. Strong heart health through discipline.",
+        "negative": "May face health issues related to chest, heart, or chronic diseases. Need to maintain heart health and regular checkups."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system through patience.",
+        "negative": "May face health issues related to stomach, digestion, or chronic problems. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles and discipline.",
+        "negative": "May face health issues, diseases, or chronic problems. Need to maintain strong immune system and regular checkups."
+      },
+      "7": {
+        "positive": "Stable health related to reproductive organs. Healthy partnership through patience.",
+        "negative": "May face health issues related to reproductive organs, chronic diseases, or partnership health. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges through discipline.",
+        "negative": "May delay recovery or bring unexpected health expenses early on. Manage with discipline and regular checkups."
+      },
+      "9": {
+        "positive": "Good health through dharma and discipline. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or chronic diseases. Need to maintain overall health and regular checkups."
+      },
+      "10": {
+        "positive": "Strong health through career and discipline. Good physical fitness through patience.",
+        "negative": "May face health issues related to career stress or chronic problems. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections and discipline. Strong overall health.",
+        "negative": "May face health issues related to friends or chronic problems. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality and discipline. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, or hidden chronic health problems. Need regular health checkups."
+      }
+    },
+    "Rahu": {
+      "1": {
+        "positive": "Good health through unconventional means or technology. Strong recovery through modern medicine.",
+        "negative": "May face health issues related to skin, mental health, or unconventional problems. Need to avoid impulsive health risks."
+      },
+      "2": {
+        "positive": "Good health through unconventional means. Healthy eating habits through modern approaches.",
+        "negative": "May face health issues related to face, mouth, or skin problems. Need to maintain good oral health."
+      },
+      "3": {
+        "positive": "Good health related to arms and communication. Active and healthy lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or skin problems. Need regular exercise."
+      },
+      "4": {
+        "positive": "Good health related to chest and heart. Strong physical health through modern approaches.",
+        "negative": "May face health issues related to chest, heart, or mental health. Need to maintain heart health."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system.",
+        "negative": "May face health issues related to stomach, digestion, or mental health. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles.",
+        "negative": "May face health issues, diseases, or skin problems. Need to maintain strong immune system."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership through modern approaches.",
+        "negative": "May face health issues related to reproductive organs or mental health. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges.",
+        "negative": "May face sudden health issues, unexpected expenses, or skin problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Good health through dharma and modern approaches. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or mental health. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and modern approaches. Good physical fitness.",
+        "negative": "May face health issues related to career stress or mental health. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections. Strong overall health.",
+        "negative": "May face health issues related to friends or mental health. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Good health through spirituality and transformation. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, or hidden mental health problems. Need regular health checkups."
+      }
+    },
+    "Ketu": {
+      "1": {
+        "positive": "Good health through spirituality and research. Strong recovery through spiritual practices.",
+        "negative": "May face health issues related to hidden problems, mental health, or spiritual detachment. Need to balance spiritual and physical health."
+      },
+      "2": {
+        "positive": "Good health through research or spirituality. Healthy eating habits through spiritual practices.",
+        "negative": "May face health issues related to face, mouth, or hidden problems. Need to maintain good oral health."
+      },
+      "3": {
+        "positive": "Good health related to arms and communication. Active and healthy lifestyle.",
+        "negative": "May face health issues related to arms, shoulders, or hidden problems. Need regular exercise."
+      },
+      "4": {
+        "positive": "Good health related to chest and heart. Strong physical health through spiritual practices.",
+        "negative": "May face health issues related to chest, heart, or hidden problems. Need to maintain heart health."
+      },
+      "5": {
+        "positive": "Good health related to stomach and digestion. Strong digestive system.",
+        "negative": "May face health issues related to stomach, digestion, or hidden problems. Need to maintain digestive health."
+      },
+      "6": {
+        "positive": "Strong immune system. Good health through overcoming obstacles and spiritual practices.",
+        "negative": "May face health issues, diseases, or hidden problems. Need to maintain strong immune system."
+      },
+      "7": {
+        "positive": "Good health related to reproductive organs. Healthy partnership through spiritual connection.",
+        "negative": "May face health issues related to reproductive organs or hidden problems. Need to maintain reproductive health."
+      },
+      "8": {
+        "positive": "Strong health through transformation. Good recovery from health challenges through spiritual practices.",
+        "negative": "May face sudden health issues, unexpected expenses, or hidden problems. Need regular health checkups."
+      },
+      "9": {
+        "positive": "Excellent health through dharma and spirituality. Strong spiritual and physical health.",
+        "negative": "May face health issues related to father or hidden problems. Need to maintain overall health."
+      },
+      "10": {
+        "positive": "Strong health through career and spirituality. Good physical fitness through spiritual practices.",
+        "negative": "May face health issues related to career stress or hidden problems. Need to balance work and health."
+      },
+      "11": {
+        "positive": "Good health through social connections and spirituality. Strong overall health.",
+        "negative": "May face health issues related to friends or hidden problems. Need to maintain social health."
+      },
+      "12": {
+        "positive": "Excellent health through spirituality and transformation. Strong recovery abilities.",
+        "negative": "May face health issues, expenses, or hidden health problems. Need regular health checkups."
+      }
+    }
+  }
+}

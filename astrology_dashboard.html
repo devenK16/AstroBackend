@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotishganit Dashboard - Deven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #8b5cf6;
+            --primary-dark: #7c3aed;
+            --secondary: #ec4899;
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --text-light: #f8fafc;
+            --text-gray: #94a3b8;
+            --glass: rgba(30, 41, 59, 0.7);
+            --border: rgba(148, 163, 184, 0.1);
+            --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.15) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(236, 72, 153, 0.15) 0%, transparent 20%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--text-gray);
+            font-size: 1.1rem;
+        }
+
+        /* Input Section */
+        .input-card {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            align-items: end;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        label {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        input {
+            background: var(--bg-dark);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            color: var(--text-light);
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        button.btn-primary {
+            background: var(--gradient);
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: opacity 0.3s, transform 0.2s;
+        }
+
+        button.btn-primary:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        button.btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Dashboard Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+            display: none;
+            /* Hidden until loaded */
+        }
+
+        .dashboard-grid.visible {
+            display: grid;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            border: 1px solid var(--border);
+            height: 100%;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Specific Grid Layouts */
+        .col-span-12 {
+            grid-column: span 12;
+        }
+
+        .col-span-8 {
+            grid-column: span 8;
+        }
+
+        .col-span-6 {
+            grid-column: span 6;
+        }
+
+        .col-span-4 {
+            grid-column: span 4;
+        }
+
+        @media (max-width: 1024px) {
+
+            .col-span-8,
+            .col-span-6,
+            .col-span-4 {
+                grid-column: span 12;
+            }
+        }
+
+        /* Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .data-table th,
+        .data-table td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table th {
+            color: var(--text-gray);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Panchanga Grid */
+        .panchanga-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+
+        .stat-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+
+        .stat-label {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--text-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        /* Charts Tab Interface */
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            overflow-x: auto;
+            padding-bottom: 0.5rem;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-gray);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Status & Loading */
+        #status-msg {
+            text-align: center;
+            margin-bottom: 2rem;
+            min-height: 24px;
+            color: var(--secondary);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* JSON Preview */
+        .json-preview {
+            background: #000;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            color: #22c55e;
+            font-family: monospace;
+            font-size: 0.8rem;
+            max-height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Jyotishganit Dashboard</h1>
+            <p class="subtitle">Advanced Vedic Astrology Calculations</p>
+        </header>
+
+        <form id="detailsForm" class="input-card">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="name" value="Deven" required>
+            </div>
+            <div class="form-group">
+                <label>Date of Birth</label>
+                <input type="date" id="date" value="2002-02-16" required>
+            </div>
+            <div class="form-group">
+                <label>Time</label>
+                <input type="time" id="time" value="10:20" required>
+            </div>
+            <div class="form-group">
+                <label>Latitude (Nagpur)</label>
+                <input type="number" step="any" id="latitude" value="21.1458" required>
+            </div>
+            <div class="form-group">
+                <label>Longitude (Nagpur)</label>
+                <input type="number" step="any" id="longitude" value="79.0882" required>
+            </div>
+            <div class="form-group">
+                <label>Timezone (IST)</label>
+                <input type="number" step="any" id="timezone" value="5.5" required>
+            </div>
+            <button type="submit" class="btn-primary" id="generateBtn">
+                Generate Chart
+            </button>
+        </form>
+
+        <div id="status-msg"></div>
+
+        <div id="dashboard" class="dashboard-grid">
+
+            <!-- 1. Basic Info & Panchanga -->
+            <div class="card col-span-12">
+                <div class="card-header">
+                    <h2>✨ Panchanga Details</h2>
+                    <span id="chart-datetime" style="color: var(--text-gray); font-size: 0.9rem;"></span>
+                </div>
+                <div class="panchanga-grid" id="panchanga-container">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- 2. Planetary Positions (D1) -->
+            <div class="card col-span-6">
+                <div class="card-header">
+                    <h2>🪐 Planetary Positions (D1 Rasi)</h2>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Planet</th>
+                            <th>Rashi (Sign)</th>
+                            <th>Longitude</th>
+                            <th>Nakshatra</th>
+                            <th>House</th>
+                        </tr>
+                    </thead>
+                    <tbody id="planets-body">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 3. Divisional Charts -->
+            <div class="card col-span-6">
+                <div class="card-header">
+                    <h2>🔢 Divisional Charts</h2>
+                </div>
+                <div class="tabs" id="varga-tabs">
+                    <button class="tab-btn active" onclick="showVarga('d1')">D1 (Rasi)</button>
+                    <button class="tab-btn" onclick="showVarga('d9')">D9 (Navamsa)</button>
+                    <button class="tab-btn" onclick="showVarga('d10')">D10 (Dasamsa)</button>
+                    <!-- More added dynamically -->
+                </div>
+                <div id="varga-content" style="overflow-y: auto; max-height: 400px;">
+                    <p style="color: var(--text-gray);">Select a chart to view details.</p>
+                </div>
+            </div>
+
+            <!-- 4. Dashas -->
+            <div class="card col-span-4">
+                <div class="card-header">
+                    <h2>⏳ Vimshottari Dasha</h2>
+                </div>
+                <div id="dasha-content">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- 5. Ashtakavarga -->
+            <div class="card col-span-4">
+                <div class="card-header">
+                    <h2>💪 Ashtakavarga Points</h2>
+                </div>
+                <div id="ashtakavarga-content">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- 6. Raw Data debug -->
+            <div class="card col-span-4">
+                <div class="card-header">
+                    <h2>🛠️ Raw Data</h2>
+                </div>
+                <pre id="raw-json" class="json-preview"></pre>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000/api/birth-chart';
+
+        document.getElementById('detailsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            generateChart();
+        });
+
+        async function generateChart() {
+            const btn = document.getElementById('generateBtn');
+            const status = document.getElementById('status-msg');
+            const dashboard = document.getElementById('dashboard');
+
+            // UI State
+            btn.disabled = true;
+            btn.innerHTML = '<span class="spinner"></span> Calculating...';
+            status.textContent = 'Connecting to backend...';
+            dashboard.classList.remove('visible');
+
+            // Gather Data
+            const formData = {
+                name: document.getElementById('name').value,
+                date: document.getElementById('date').value,
+                time: document.getElementById('time').value,
+                latitude: parseFloat(document.getElementById('latitude').value),
+                longitude: parseFloat(document.getElementById('longitude').value),
+                timezone: parseFloat(document.getElementById('timezone').value)
+            };
+
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+
+                if (!data.success) {
+                    throw new Error(data.error || 'Unknown error occurred');
+                }
+
+                // Render Dashboard
+                renderDashboard(data);
+                dashboard.classList.add('visible');
+                status.textContent = '';
+
+            } catch (err) {
+                status.innerHTML = `<span style="color: #ef4444">Error: ${err.message}. Is the backend running?</span>`;
+                console.error(err);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Generate Chart';
+            }
+        }
+
+        function renderDashboard(data) {
+            console.log('Rendering Data:', data);
+
+            // Raw Data Preview
+            document.getElementById('raw-json').textContent = JSON.stringify(data, null, 2);
+
+            // 1. Panchanga
+            if (data.panchanga) {
+                const p = data.panchanga;
+                const container = document.getElementById('panchanga-container');
+                container.innerHTML = `
+                    <div class="stat-box"><span class="stat-label">Vaara</span><span class="stat-value">${p.vaara || '-'}</span></div>
+                    <div class="stat-box"><span class="stat-label">Tithi</span><span class="stat-value">${p.tithi || '-'}</span></div>
+                    <div class="stat-box"><span class="stat-label">Nakshatra</span><span class="stat-value">${p.nakshatra || '-'}</span></div>
+                    <div class="stat-box"><span class="stat-label">Yoga</span><span class="stat-value">${p.yoga || '-'}</span></div>
+                    <div class="stat-box"><span class="stat-label">Karana</span><span class="stat-value">${p.karana || '-'}</span></div>
+                `;
+            }
+
+            // 2. Planets (D1)
+            const planetsBody = document.getElementById('planets-body');
+            planetsBody.innerHTML = '';
+
+            // Note: Actual structure depends on library output, handled safely here
+            let planetsList = [];
+            if (data.d1_chart && data.d1_chart.planets) {
+                planetsList = data.d1_chart.planets; // Assuming list of objects
+            } else if (data.planets) {
+                planetsList = data.planets;
+            }
+
+            // If it's a dict/object, convert to array
+            if (!Array.isArray(planetsList) && typeof planetsList === 'object') {
+                planetsList = Object.entries(planetsList).map(([k, v]) => ({ name: k, ...v }));
+            }
+
+            if (planetsList.length > 0) {
+                planetsList.forEach(planet => {
+                    const row = `
+                        <tr>
+                            <td style="font-weight: 600; color: var(--secondary)">${planet.name || planet.id || 'Unknown'}</td>
+                            <td>${planet.rashi || planet.sign || '-'}</td>
+                            <td>${formatLongitude(planet.longitude || planet.lon)}</td>
+                            <td>${planet.nakshatra || '-'}</td>
+                            <td>${planet.house || '-'}</td>
+                        </tr>
+                    `;
+                    planetsBody.innerHTML += row;
+                });
+            } else {
+                planetsBody.innerHTML = '<tr><td colspan="5">No planetary data found in response</td></tr>';
+            }
+
+            // 3. Divisional Charts
+            // Setup clicks for tabs logic... (simplified here for brevity)
+            // Storing data globally for the tab switcher
+            window.chartData = data;
+        }
+
+        function formatLongitude(lon) {
+            if (!lon) return '-';
+            const deg = Math.floor(lon);
+            const min = Math.floor((lon - deg) * 60);
+            return `${deg}° ${min}'`;
+        }
+
+        // Global Varga Switcher
+        window.showVarga = function (vargaKey) {
+            // Update buttons
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            const btn = document.querySelector(`button[onclick="showVarga('${vargaKey}')"]`);
+            if (btn) btn.classList.add('active');
+
+            const content = document.getElementById('varga-content');
+            if (!window.chartData || !window.chartData.divisional_charts) {
+                content.innerHTML = 'No divisional chart data available';
+                return;
+            }
+
+            const chart = window.chartData.divisional_charts[vargaKey];
+            if (!chart) {
+                content.innerHTML = 'Chart not found';
+                return;
+            }
+
+            // Render whatever property the chart object has
+            content.innerHTML = `<pre style="font-size: 0.8rem;">${JSON.stringify(chart, null, 2)}</pre>`;
+        }
+    </script>
+</body>
+
+</html>

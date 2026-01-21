@@ -1,0 +1,87 @@
+{
+  "severity_levels": {
+    "low": {
+      "description": "Minor concern that requires awareness",
+      "tone": "constructive",
+      "suggestions": true
+    },
+    "moderate": {
+      "description": "Noticeable concern that requires attention",
+      "tone": "awareness",
+      "suggestions": true
+    },
+    "high": {
+      "description": "Significant concern that requires careful management",
+      "tone": "cautionary",
+      "suggestions": true
+    }
+  },
+  "templates": {
+    "career": {
+      "delays": "Initial delays in career development may require patience—think careful planning to avoid setbacks. Your persistence will pay off in the long run.",
+      "conflicts": "May face conflicts or challenges in career—awareness helps channel energy constructively. Focus on your strengths to navigate challenges.",
+      "instability": "Career may have fluctuations—staying grounded helps navigate changes. Build multiple skills to maintain stability.",
+      "competition": "Strong competition in your field—your determination and preparation will help you succeed. Stay focused on your goals.",
+      "authority_issues": "May face challenges with authority—maintaining respect and professionalism helps. Build strong relationships with superiors."
+    },
+    "wealth": {
+      "delays": "Initial delays or expenses in savings—think careful budgeting to avoid minor setbacks. Your discipline will build long-term wealth.",
+      "fluctuations": "May face financial fluctuations—awareness helps turn challenges into growth. Maintain an emergency fund for stability.",
+      "expenses": "Need to manage expenses carefully—discipline in spending helps build wealth. Create a budget and stick to it.",
+      "risks": "Avoid impulsive financial risks—careful planning helps maintain stability. Consult financial advisors before major decisions.",
+      "family_finances": "May face challenges with family finances—open communication helps manage joint finances. Set clear financial boundaries."
+    },
+    "marriage": {
+      "delays": "May face delays in marriage—patience and understanding help. Focus on personal growth while waiting.",
+      "conflicts": "May face conflicts in relationship—open communication and understanding help. Work on conflict resolution skills.",
+      "separation": "Need to maintain transparency to avoid separation—honest communication strengthens bonds. Regular check-ins help maintain connection.",
+      "emotional": "May face emotional fluctuations—emotional stability helps maintain harmony. Consider counseling if needed.",
+      "family_issues": "May face issues with in-laws—patience and respect help manage family relationships. Set healthy boundaries."
+    },
+    "health": {
+      "chronic": "May face chronic health issues—regular checkups and discipline help manage health. Follow medical advice consistently.",
+      "delays_recovery": "May delay recovery or bring unexpected health expenses—manage with discipline and regular checkups. Maintain health insurance.",
+      "prevention": "Focus on prevention to avoid health issues—regular exercise and healthy lifestyle help. Annual health checkups are important.",
+      "stress": "May face health issues related to stress—balance work and health helps. Practice stress management techniques.",
+      "hidden": "May face hidden health problems—regular health checkups help detect issues early. Don't ignore minor symptoms."
+    }
+  },
+  "planet_specific": {
+    "Saturn": {
+      "pattern": "{planet} in {house}th house may bring initial delays or require patience—think careful planning to avoid setbacks.",
+      "alternative": "{planet} in {house}th house may delay {topic} or bring unexpected expenses early on—manage with discipline."
+    },
+    "Mars": {
+      "pattern": "{planet} in {house}th house could indicate conflicts or impulsive decisions—awareness helps channel energy constructively.",
+      "alternative": "{planet} in {house}th house may bring challenges—your determination helps navigate obstacles."
+    },
+    "Rahu": {
+      "pattern": "{planet} in {house}th house may bring fluctuations or unconventional challenges—staying grounded helps navigate changes.",
+      "alternative": "{planet} in {house}th house could tempt impulsive risks—careful planning helps maintain stability."
+    },
+    "Ketu": {
+      "pattern": "{planet} in {house}th house may require attention to hidden aspects—maintaining transparency helps.",
+      "alternative": "{planet} in {house}th house may bring transformation challenges—patience and understanding help."
+    },
+    "Sun": {
+      "pattern": "{planet} in {house}th house may face challenges if weak—strengthening through {suggestion} helps.",
+      "alternative": "{planet} in {house}th house may bring authority challenges—maintaining respect helps."
+    },
+    "Moon": {
+      "pattern": "{planet} in {house}th house may face emotional fluctuations—emotional stability helps maintain harmony.",
+      "alternative": "{planet} in {house}th house may bring mood issues—maintaining emotional balance helps."
+    }
+  },
+  "house_specific": {
+    "6": "May face challenges through enemies, debts, or health—managing these areas carefully helps maintain stability.",
+    "8": "May face unexpected challenges or expenses—being prepared and maintaining discipline helps navigate difficulties.",
+    "12": "May face expenses or hidden challenges—careful planning and transparency help avoid unnecessary losses."
+  },
+  "constructive_endings": [
+    "Nothing major, but awareness helps turn challenges into growth!",
+    "Your awareness and preparation will help you navigate these areas successfully.",
+    "With discipline and planning, these challenges can be managed effectively.",
+    "Focus on your strengths, and these areas will improve over time.",
+    "Patience and understanding help transform challenges into opportunities."
+  ]
+}

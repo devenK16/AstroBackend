@@ -1,0 +1,81 @@
+{
+  "planets": {
+    "Sun": {
+      "general": ["Leadership", "Authority", "Recognition", "Confidence", "Vitality", "Strength", "Courage"],
+      "career": ["Executive", "Government", "Administration", "Leadership Roles", "High Position", "Authority"],
+      "wealth": ["Royal", "Prestigious", "High Status", "Inheritance", "Family Wealth"],
+      "marriage": ["Authoritative", "Confident", "Recognized", "Strong Personality"],
+      "health": ["Strong Constitution", "Vitality", "Active Lifestyle", "Heart Health"]
+    },
+    "Moon": {
+      "general": ["Intuition", "Emotional Intelligence", "Public Relations", "Compassion", "Nurturing", "Adaptability"],
+      "career": ["Public Service", "Media", "Hospitality", "Caregiving", "Public Relations"],
+      "wealth": ["Liquid Assets", "Food Industry", "Beverages", "Public Recognition"],
+      "marriage": ["Emotional", "Caring", "Harmonious", "Nurturing", "Supportive"],
+      "health": ["Emotional Balance", "Mental Health", "Blood Health", "Digestive Health"]
+    },
+    "Mars": {
+      "general": ["Courage", "Action", "Competition", "Energy", "Determination", "Initiative"],
+      "career": ["Military", "Sports", "Engineering", "Law Enforcement", "Competitive Fields"],
+      "wealth": ["Bold Actions", "Competitive Business", "Dynamic Ventures"],
+      "marriage": ["Dynamic", "Energetic", "Active", "Courageous", "Strong"],
+      "health": ["Physical Strength", "Active Lifestyle", "Exercise", "Vitality"]
+    },
+    "Mercury": {
+      "general": ["Communication", "Intelligence", "Business", "Writing", "Analytical", "Versatile"],
+      "career": ["Business", "Communication", "Writing", "Media", "Education", "Technology"],
+      "wealth": ["Business Acumen", "Communication Skills", "Writing", "Trade"],
+      "marriage": ["Intelligent", "Communicative", "Compatible", "Intellectual"],
+      "health": ["Mental Health", "Nervous System", "Communication Health", "Skin Health"]
+    },
+    "Jupiter": {
+      "general": ["Wisdom", "Teaching", "Guidance", "Dharma", "Knowledge", "Expansion", "Optimism"],
+      "career": ["Teaching", "Law", "Philosophy", "Spiritual", "Administration", "Guidance"],
+      "wealth": ["Knowledge", "Wisdom", "Teaching", "Guidance", "Long-term Vision"],
+      "marriage": ["Wise", "Virtuous", "Dharma-oriented", "Compatible", "Long-lasting"],
+      "health": ["Overall Well-being", "Liver Health", "Wisdom-based Health", "Strong Immunity"]
+    },
+    "Venus": {
+      "general": ["Creativity", "Arts", "Beauty", "Luxury", "Harmony", "Relationships", "Pleasure"],
+      "career": ["Arts", "Beauty", "Luxury", "Entertainment", "Fashion", "Design"],
+      "wealth": ["Arts", "Beauty", "Luxury", "Creative Ventures", "Aesthetic"],
+      "marriage": ["Beautiful", "Attractive", "Harmonious", "Pleasure-oriented", "Compatible"],
+      "health": ["Reproductive Health", "Beauty", "Harmony", "Balance", "Diabetes Management"]
+    },
+    "Saturn": {
+      "general": ["Discipline", "Stability", "Patience", "Long-term Planning", "Maturity", "Responsibility"],
+      "career": ["Government Service", "Long-term Career", "Stability", "Discipline", "Authority"],
+      "wealth": ["Hard Work", "Persistence", "Long-term Planning", "Discipline", "Stability"],
+      "marriage": ["Stable", "Mature", "Long-lasting", "Patient", "Disciplined"],
+      "health": ["Discipline", "Patience", "Bone Health", "Joint Health", "Chronic Disease Management"]
+    },
+    "Rahu": {
+      "general": ["Innovation", "Technology", "Unconventional", "Transformation", "Modern", "Foreign"],
+      "career": ["Technology", "Innovation", "Unconventional", "Foreign", "Modern"],
+      "wealth": ["Unconventional", "Technology", "Innovation", "Modern Approaches"],
+      "marriage": ["Unconventional", "Unique", "Modern", "Foreign", "Transformative"],
+      "health": ["Modern Medicine", "Technology", "Innovation", "Mental Health", "Skin Health"]
+    },
+    "Ketu": {
+      "general": ["Research", "Spirituality", "Transformation", "Detachment", "Mystical", "Hidden"],
+      "career": ["Research", "Spirituality", "Behind-the-scenes", "Transformation", "Mystical"],
+      "wealth": ["Research", "Spirituality", "Hidden Sources", "Transformation"],
+      "marriage": ["Spiritual", "Research-oriented", "Deep Bond", "Transformative", "Mystical"],
+      "health": ["Spiritual Practices", "Research", "Transformation", "Mental Health", "Recovery"]
+    }
+  },
+  "houses": {
+    "1": ["Self", "Personality", "Physical Body", "Vitality", "Identity"],
+    "2": ["Wealth", "Family", "Speech", "Face", "Food"],
+    "3": ["Siblings", "Communication", "Courage", "Short Travel", "Arms"],
+    "4": ["Mother", "Home", "Property", "Education", "Comforts"],
+    "5": ["Children", "Creativity", "Education", "Speculation", "Intelligence"],
+    "6": ["Health", "Enemies", "Debts", "Service", "Competition"],
+    "7": ["Marriage", "Partnership", "Spouse", "Business", "Relationships"],
+    "8": ["Longevity", "Transformation", "Hidden", "Research", "Mysteries"],
+    "9": ["Father", "Dharma", "Higher Knowledge", "Philosophy", "Long Travel"],
+    "10": ["Career", "Profession", "Authority", "Recognition", "Status"],
+    "11": ["Gains", "Income", "Friends", "Networking", "Aspirations"],
+    "12": ["Expenses", "Foreign", "Spirituality", "Hidden", "Isolation"]
+  }
+}

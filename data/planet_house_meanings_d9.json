@@ -1,0 +1,457 @@
+{
+  "chart_type": "D9",
+  "chart_name": "Navamsa",
+  "purpose": "Marriage and Relationships",
+  "meanings": {
+    "Sun": {
+      "1": {
+        "positive": "Strong personality in relationships. Partner will be authoritative, confident, and recognized.",
+        "negative": "May face conflicts due to ego or dominance. Need to balance authority with partnership harmony."
+      },
+      "2": {
+        "positive": "Wealthy and supportive partner. Financial stability through marriage. Partner with good family background.",
+        "negative": "May face financial disputes in marriage. Need to manage joint finances carefully."
+      },
+      "3": {
+        "positive": "Partner with good communication skills. Happy relationship with siblings and relatives.",
+        "negative": "May face conflicts with siblings or relatives. Need to manage family relationships carefully."
+      },
+      "4": {
+        "positive": "Comfortable and happy married life. Partner provides emotional security and home comforts.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and creative partnership. Happy relationship with creative or intellectual partner.",
+        "negative": "May face delays in children or relationship issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after initial challenges. Partner helps overcome obstacles together.",
+        "negative": "May face conflicts, disputes, or health issues in marriage. Need to manage conflicts carefully."
+      },
+      "7": {
+        "positive": "Excellent for marriage. Strong, authoritative, and recognized partner. Happy married life.",
+        "negative": "May face conflicts or dominance issues in marriage. Need to balance authority with partnership."
+      },
+      "8": {
+        "positive": "Deep and transformative relationship. Strong bond through challenges.",
+        "negative": "May face relationship challenges or delays in marriage. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship. Partner with high values and spiritual inclination.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status. Recognition and success through marriage.",
+        "negative": "May face career-related conflicts in marriage. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains and happiness through marriage. Supportive partner and good social connections.",
+        "negative": "May face issues with friends or social circle. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Spiritual or foreign connection in marriage. Deep spiritual bond with partner.",
+        "negative": "May face separation, expenses, or hidden issues in marriage. Need to maintain transparency."
+      }
+    },
+    "Moon": {
+      "1": {
+        "positive": "Emotional and caring partner. Public recognition through marriage. Happy and harmonious relationship.",
+        "negative": "May face emotional fluctuations or mood issues. Need emotional stability in relationship."
+      },
+      "2": {
+        "positive": "Wealthy and supportive partner. Financial stability through marriage. Partner with good family.",
+        "negative": "May face financial disputes or family issues. Need to manage joint finances carefully."
+      },
+      "3": {
+        "positive": "Partner with good communication. Happy relationship with siblings and relatives.",
+        "negative": "May face conflicts with siblings or communication issues. Need to improve communication."
+      },
+      "4": {
+        "positive": "Comfortable and emotionally secure marriage. Partner provides home and emotional security.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and creative partnership. Happy relationship with creative partner.",
+        "negative": "May face delays in children or emotional issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after initial challenges. Partner helps overcome obstacles together.",
+        "negative": "May face conflicts, health issues, or disputes in marriage. Need to manage conflicts carefully."
+      },
+      "7": {
+        "positive": "Excellent for marriage. Emotional, caring, and harmonious partner. Happy married life.",
+        "negative": "May face emotional fluctuations or mood issues in marriage. Need emotional stability."
+      },
+      "8": {
+        "positive": "Deep emotional bond through challenges. Transformative relationship.",
+        "negative": "May face relationship challenges or emotional turmoil. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship. Partner with high values and emotional depth.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with public recognition. Success and recognition through marriage.",
+        "negative": "May face career-related conflicts or public issues. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains and happiness through marriage. Supportive partner and good social connections.",
+        "negative": "May face issues with friends or social circle. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Spiritual or foreign connection in marriage. Deep emotional and spiritual bond.",
+        "negative": "May face separation, expenses, or hidden emotional issues. Need to maintain transparency."
+      }
+    },
+    "Mars": {
+      "1": {
+        "positive": "Dynamic and energetic partner. Strong, courageous, and action-oriented relationship.",
+        "negative": "May face conflicts, anger issues, or dominance problems. Need to manage anger and conflicts."
+      },
+      "2": {
+        "positive": "Wealthy and bold partner. Financial gains through marriage, but need careful management.",
+        "negative": "May face financial disputes or family conflicts. Need to manage joint finances and family relationships."
+      },
+      "3": {
+        "positive": "Partner with good communication and courage. Happy relationship with siblings.",
+        "negative": "May face conflicts with siblings or communication issues. Need to improve communication."
+      },
+      "4": {
+        "positive": "Comfortable marriage with dynamic partner. Partner provides security and action.",
+        "negative": "May face issues with mother-in-law or property disputes. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and dynamic partnership. Happy relationship with active partner.",
+        "negative": "May face delays in children or relationship conflicts. Need patience and conflict management."
+      },
+      "6": {
+        "positive": "Strong relationship after overcoming challenges. Partner helps fight obstacles together.",
+        "negative": "May face conflicts, disputes, or health issues. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Strong and dynamic partner. Active and energetic married life.",
+        "negative": "Strong Manglik dosha. May face conflicts, separation, or dominance issues. Both partners being Manglik can cancel this."
+      },
+      "8": {
+        "positive": "Deep bond through challenges. Transformative and strong relationship.",
+        "negative": "May face relationship challenges, conflicts, or delays. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship with dynamic partner. Partner with high values and action.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status and authority. Recognition through marriage.",
+        "negative": "May face career-related conflicts or authority issues. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through dynamic partnership. Supportive and active partner.",
+        "negative": "May face issues with friends or social conflicts. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Foreign or transformative connection. Deep bond through challenges.",
+        "negative": "May face separation, expenses, or hidden conflicts. Need to maintain transparency and avoid secrets."
+      }
+    },
+    "Mercury": {
+      "1": {
+        "positive": "Intelligent and communicative partner. Happy relationship with intellectual compatibility.",
+        "negative": "May face communication issues or misunderstandings. Need to improve communication."
+      },
+      "2": {
+        "positive": "Wealthy and intelligent partner. Financial stability through business or communication.",
+        "negative": "May face financial disputes or communication issues. Need to manage joint finances carefully."
+      },
+      "3": {
+        "positive": "Excellent communication in relationship. Happy relationship with siblings and relatives.",
+        "negative": "May face conflicts with siblings or communication misunderstandings. Need to improve communication."
+      },
+      "4": {
+        "positive": "Comfortable marriage with intelligent partner. Partner provides security and communication.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and intellectual partnership. Happy relationship with educated partner.",
+        "negative": "May face delays in children or communication issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after initial challenges. Partner helps overcome obstacles through communication.",
+        "negative": "May face conflicts, disputes, or health issues. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Excellent for marriage. Intelligent, communicative, and compatible partner. Happy married life.",
+        "negative": "May face communication issues or misunderstandings in marriage. Need to improve communication."
+      },
+      "8": {
+        "positive": "Deep intellectual bond through challenges. Transformative relationship with good communication.",
+        "negative": "May face relationship challenges or communication breakdowns. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship with intelligent partner. Partner with high values and knowledge.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status in business or communication. Success through marriage.",
+        "negative": "May face career-related conflicts or business issues. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through intelligent partnership. Supportive partner with good communication.",
+        "negative": "May face issues with friends or social communication problems. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Foreign or intellectual connection. Deep bond through communication and understanding.",
+        "negative": "May face separation, expenses, or hidden communication issues. Need to maintain transparency."
+      }
+    },
+    "Jupiter": {
+      "1": {
+        "positive": "Blessed with wise and virtuous partner. Happy, long-lasting, and dharma-oriented relationship.",
+        "negative": "May face issues if Jupiter is weak. Need to strengthen relationship through dharma and values."
+      },
+      "2": {
+        "positive": "Wealthy and wise partner. Financial stability and prosperity through marriage.",
+        "negative": "May face initial delays in financial stability. Need patience and long-term planning."
+      },
+      "3": {
+        "positive": "Happy relationship with siblings and relatives. Partner with good communication and wisdom.",
+        "negative": "May face conflicts with siblings or relatives. Need to manage family relationships carefully."
+      },
+      "4": {
+        "positive": "Comfortable and happy marriage. Partner provides security, wisdom, and emotional support.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and wise partnership. Happy relationship with educated and virtuous partner.",
+        "negative": "May face delays in children or relationship issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after overcoming challenges. Partner helps overcome obstacles with wisdom.",
+        "negative": "May face conflicts, disputes, or health issues. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Excellent for marriage. Wise, virtuous, and compatible partner. Happy and long-lasting married life.",
+        "negative": "May face relationship issues if Jupiter is weak. Need to strengthen relationship through dharma."
+      },
+      "8": {
+        "positive": "Deep spiritual bond through challenges. Transformative relationship with wisdom.",
+        "negative": "May face relationship challenges or delays. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Excellent dharma-oriented relationship. Partner with high values, wisdom, and spiritual inclination.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status in law, teaching, or administration. Recognition through marriage.",
+        "negative": "May face career-related conflicts or authority issues. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through wise partnership. Supportive partner with good social connections.",
+        "negative": "May face issues with friends or social circle. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Spiritual or foreign connection. Deep bond through wisdom and understanding.",
+        "negative": "May face separation, expenses, or hidden issues. Need to maintain transparency."
+      }
+    },
+    "Venus": {
+      "1": {
+        "positive": "Beautiful and attractive partner. Happy, harmonious, and pleasure-oriented relationship.",
+        "negative": "May face issues with excessive attachment or luxury. Need to balance material and spiritual."
+      },
+      "2": {
+        "positive": "Wealthy and beautiful partner. Financial stability and prosperity through marriage.",
+        "negative": "May face financial disputes or luxury expenses. Need to manage joint finances carefully."
+      },
+      "3": {
+        "positive": "Happy relationship with siblings and relatives. Partner with good communication and charm.",
+        "negative": "May face conflicts with siblings or communication issues. Need to improve communication."
+      },
+      "4": {
+        "positive": "Comfortable and luxurious marriage. Partner provides security, beauty, and home comforts.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and beautiful partnership. Happy relationship with creative and attractive partner.",
+        "negative": "May face delays in children or relationship issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after initial challenges. Partner helps overcome obstacles with charm.",
+        "negative": "May face conflicts, health issues, or disputes. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Excellent for marriage. Beautiful, attractive, and compatible partner. Happy and harmonious married life.",
+        "negative": "May face relationship issues if Venus is weak or afflicted. Need to strengthen relationship."
+      },
+      "8": {
+        "positive": "Deep bond through challenges. Transformative relationship with beauty and charm.",
+        "negative": "May face relationship challenges or delays. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship with beautiful partner. Partner with high values and charm.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status in arts, luxury, or entertainment. Recognition through marriage.",
+        "negative": "May face career-related conflicts or luxury expenses. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through beautiful partnership. Supportive partner with good social connections.",
+        "negative": "May face issues with friends or social expenses. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Foreign or spiritual connection. Deep bond through beauty and understanding.",
+        "negative": "May face separation, expenses, or hidden issues. Need to maintain transparency and avoid secrets."
+      }
+    },
+    "Saturn": {
+      "1": {
+        "positive": "Stable and mature partner. Long-lasting relationship through patience and discipline.",
+        "negative": "May face delays in marriage or relationship challenges. Need patience and understanding."
+      },
+      "2": {
+        "positive": "Wealthy partner through hard work. Financial stability through patience and discipline.",
+        "negative": "May face initial delays or expenses in savings. Think careful budgeting to avoid minor setbacks."
+      },
+      "3": {
+        "positive": "Stable relationship with siblings and relatives. Partner with good communication and maturity.",
+        "negative": "May face conflicts with siblings or communication delays. Need to manage family relationships."
+      },
+      "4": {
+        "positive": "Comfortable and stable marriage. Partner provides security through patience and discipline.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children after delays. Stable relationship with mature partner.",
+        "negative": "May face delays in children or relationship issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after overcoming challenges. Partner helps overcome obstacles with patience.",
+        "negative": "May face conflicts, disputes, or health issues. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Stable and mature partner. Long-lasting relationship through patience.",
+        "negative": "May face delays in marriage, relationship challenges, or separation. Need patience and understanding."
+      },
+      "8": {
+        "positive": "Deep bond through challenges. Transformative relationship with maturity.",
+        "negative": "May face relationship challenges, delays, or separation. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship with mature partner. Partner with high values and discipline.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status through hard work. Recognition through patience and discipline.",
+        "negative": "May face career-related conflicts or delays. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through stable partnership. Supportive partner with long-term connections.",
+        "negative": "May face issues with friends or social delays. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Foreign or spiritual connection. Deep bond through patience and understanding.",
+        "negative": "May face separation, expenses, or hidden issues. Need to maintain transparency."
+      }
+    },
+    "Rahu": {
+      "1": {
+        "positive": "Unconventional and unique partner. Modern relationship with foreign or spiritual connection.",
+        "negative": "May face relationship challenges, unconventional issues, or fluctuations. Need to avoid impulsive risks."
+      },
+      "2": {
+        "positive": "Wealthy partner through unconventional means. Financial stability through unique sources.",
+        "negative": "May face financial disputes or unconventional expenses. Need to manage joint finances carefully."
+      },
+      "3": {
+        "positive": "Happy relationship with siblings. Partner with good communication and modern thinking.",
+        "negative": "May face conflicts with siblings or communication issues. Need to improve communication."
+      },
+      "4": {
+        "positive": "Comfortable marriage with unique partner. Partner provides security through unconventional means.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and unique partnership. Happy relationship with modern partner.",
+        "negative": "May face delays in children or relationship issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after overcoming challenges. Partner helps overcome obstacles together.",
+        "negative": "May face conflicts, disputes, or health issues. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Unconventional and unique partner. Modern and transformative relationship.",
+        "negative": "May face relationship challenges, unconventional issues, or separation. Need to avoid impulsive decisions."
+      },
+      "8": {
+        "positive": "Deep bond through challenges. Transformative relationship with unique connection.",
+        "negative": "May face relationship challenges, delays, or unconventional issues. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Dharma-oriented relationship with unique partner. Partner with high values and modern thinking.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status through unconventional means. Recognition through unique career.",
+        "negative": "May face career-related conflicts or unconventional issues. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through unique partnership. Supportive partner with modern social connections.",
+        "negative": "May face issues with friends or social expenses. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Foreign or spiritual connection. Deep bond through transformation and understanding.",
+        "negative": "May face separation, expenses, or hidden issues. Need to maintain transparency."
+      }
+    },
+    "Ketu": {
+      "1": {
+        "positive": "Spiritual and research-oriented partner. Deep bond through spirituality and understanding.",
+        "negative": "May face relationship challenges or spiritual detachment. Need to balance spiritual and material."
+      },
+      "2": {
+        "positive": "Wealthy partner through research or spirituality. Financial stability through hidden sources.",
+        "negative": "May face financial disputes or hidden expenses. Need to manage joint finances carefully."
+      },
+      "3": {
+        "positive": "Happy relationship with siblings. Partner with good communication and spiritual inclination.",
+        "negative": "May face conflicts with siblings or communication issues. Need to improve communication."
+      },
+      "4": {
+        "positive": "Comfortable marriage with spiritual partner. Partner provides security through spiritual connection.",
+        "negative": "May face issues with mother-in-law or property matters. Need to manage family relationships."
+      },
+      "5": {
+        "positive": "Blessed with children and spiritual partnership. Happy relationship with research-oriented partner.",
+        "negative": "May face delays in children or relationship issues. Need patience in family matters."
+      },
+      "6": {
+        "positive": "Strong relationship after overcoming challenges. Partner helps overcome obstacles through spirituality.",
+        "negative": "May face conflicts, disputes, or health issues. Need to manage conflicts and health carefully."
+      },
+      "7": {
+        "positive": "Spiritual and research-oriented partner. Deep bond through spirituality and transformation.",
+        "negative": "May face relationship challenges, separation, or spiritual detachment. Need to balance spiritual and material."
+      },
+      "8": {
+        "positive": "Deep spiritual bond through challenges. Transformative relationship with complete understanding.",
+        "negative": "May face relationship challenges, delays, or separation. Need patience and understanding."
+      },
+      "9": {
+        "positive": "Excellent dharma-oriented relationship. Partner with high values and spiritual inclination.",
+        "negative": "May face issues with father-in-law or long-distance relationship challenges."
+      },
+      "10": {
+        "positive": "Partner with high career status through research or spirituality. Recognition through spiritual work.",
+        "negative": "May face career-related conflicts or spiritual expenses. Need to balance career and relationship."
+      },
+      "11": {
+        "positive": "Gains through spiritual partnership. Supportive partner with spiritual connections.",
+        "negative": "May face issues with friends or social expenses. Need to manage social relationships."
+      },
+      "12": {
+        "positive": "Foreign or spiritual connection. Deep bond through complete transformation and understanding.",
+        "negative": "May face separation, expenses, or hidden issues. Need to maintain transparency."
+      }
+    }
+  }
+}

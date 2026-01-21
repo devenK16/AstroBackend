@@ -1,0 +1,61 @@
+{
+  "career": {
+    "positive": [
+      "Your financial life is shaped by timing more than luck. When preparation meets opportunity, growth follows naturally. The more aligned your actions are with your strengths, the more stable and rewarding your wealth journey becomes.",
+      "Your career path shows great potential for growth and recognition. Success comes through leveraging your natural talents and maintaining focus on your goals. Your dedication will lead to significant achievements.",
+      "Your professional journey is marked by steady progress and increasing authority. As you develop your skills and build your reputation, opportunities for advancement will naturally present themselves.",
+      "Your career is built on a foundation of knowledge and expertise. Through continuous learning and application, you'll achieve recognition and success in your chosen field."
+    ],
+    "balanced": [
+      "Your career journey will have its ups and downs, but your resilience and adaptability will help you navigate challenges. Focus on building skills and maintaining professional relationships.",
+      "Your professional path requires patience and persistence. Early efforts build a solid foundation, with greater success coming as you gain experience and recognition.",
+      "Your career development may have some delays, but these are opportunities for growth. Your persistence and preparation will lead to long-term success."
+    ]
+  },
+  "wealth": {
+    "positive": [
+      "Your chart paints a promising financial journey: Early efforts build a solid foundation, with peaks in gains post-challenges. Imagine a life of abundance fueled by your intuitive nature—wealth flows when you trust your instincts!",
+      "Your financial life is shaped by timing more than luck. When preparation meets opportunity, growth follows naturally. The more aligned your actions are with your strengths, the more stable and rewarding your wealth journey becomes.",
+      "Your wealth grows best through knowledge, guidance, and long-term vision rather than quick wins. Money tends to follow when you invest in skills, education, or leadership roles.",
+      "Your financial journey shows steady growth through discipline and smart planning. As you build your foundation, opportunities for prosperity will increase."
+    ],
+    "balanced": [
+      "Your financial path requires careful planning and discipline. While there may be some fluctuations, your persistence and smart decisions will lead to long-term stability.",
+      "Your wealth journey will have its challenges, but your awareness and preparation will help you navigate them successfully. Focus on building multiple income sources.",
+      "Your financial life may have some delays, but these are opportunities to build a stronger foundation. Patience and discipline will lead to lasting prosperity."
+    ]
+  },
+  "marriage": {
+    "positive": [
+      "Your relationship journey is blessed with harmony and understanding. Your partnership will grow stronger over time, built on mutual respect and shared values. Love and happiness will flourish in your married life.",
+      "Your marriage is marked by deep connection and compatibility. Through patience and understanding, you'll build a relationship that brings joy, support, and lasting happiness.",
+      "Your relationship path shows great potential for a harmonious and fulfilling partnership. Your partner will be a source of strength, happiness, and mutual growth.",
+      "Your married life will be blessed with understanding, respect, and shared values. Through communication and patience, you'll build a relationship that stands the test of time."
+    ],
+    "balanced": [
+      "Your relationship journey may have some challenges, but your patience and understanding will help you build a strong partnership. Open communication is key to lasting happiness.",
+      "Your marriage path requires patience and effort, but your commitment will lead to a fulfilling relationship. Focus on understanding and supporting each other.",
+      "Your relationship may have some delays or challenges, but these are opportunities for growth. Your patience and dedication will lead to a happy and stable marriage."
+    ]
+  },
+  "health": {
+    "positive": [
+      "Your health journey is supported by strong constitution and vitality. Through regular care and healthy lifestyle choices, you'll maintain good health and well-being throughout your life.",
+      "Your physical and mental health shows great potential for strength and resilience. By maintaining discipline and regular health practices, you'll enjoy long-term wellness.",
+      "Your health is blessed with good recovery abilities and strong immunity. Through awareness and preventive care, you'll maintain excellent health and vitality.",
+      "Your wellness journey is marked by balance and harmony. Through proper care and healthy habits, you'll enjoy good health and energy throughout your life."
+    ],
+    "balanced": [
+      "Your health journey requires regular attention and care. While there may be some challenges, your awareness and preventive measures will help you maintain good health.",
+      "Your health path may have some fluctuations, but your discipline and regular checkups will help you manage any issues effectively. Focus on prevention and healthy lifestyle.",
+      "Your health may require some patience and care, but your awareness and discipline will help you maintain wellness. Regular checkups and healthy habits are important."
+    ]
+  },
+  "general_patterns": {
+    "strong_benefics": "Your chart shows strong benefic influences, indicating a positive and prosperous path forward. Focus on your strengths and maintain your positive approach.",
+    "mixed_influences": "Your chart shows a balanced mix of influences, indicating both opportunities and challenges. Your awareness and preparation will help you navigate your path successfully.",
+    "delayed_success": "Your chart indicates success that comes through patience and persistence. Early efforts build a solid foundation, with greater rewards coming as you gain experience.",
+    "transformation": "Your chart shows potential for significant transformation and growth. Through awareness and effort, you'll overcome challenges and achieve your goals.",
+    "stability": "Your chart indicates a path toward stability and security. Through discipline and careful planning, you'll build a strong foundation for long-term success."
+  }
+}

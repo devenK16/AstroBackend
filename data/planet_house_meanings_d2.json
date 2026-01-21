@@ -1,0 +1,457 @@
+{
+  "chart_type": "D2",
+  "chart_name": "Hora",
+  "purpose": "Wealth and Finance",
+  "meanings": {
+    "Sun": {
+      "1": {
+        "positive": "Strong financial foundation through leadership and authority. Wealth comes through high positions and recognition.",
+        "negative": "May face financial challenges if Sun is weak or afflicted. Need to be careful with expenses related to status."
+      },
+      "2": {
+        "positive": "Excellent for wealth accumulation. Financial stability through inheritance, family wealth, or high-income sources.",
+        "negative": "If afflicted, may face losses through family matters or face financial instability in early life."
+      },
+      "3": {
+        "positive": "Wealth through communication, writing, or short-distance business. Success in local trade or media.",
+        "negative": "May face financial losses through siblings or communication-related expenses. Need careful financial planning."
+      },
+      "4": {
+        "positive": "Wealth through property, real estate, or mother-related sources. Financial security through assets.",
+        "negative": "May face losses through property matters or mother-related expenses. Property disputes possible."
+      },
+      "5": {
+        "positive": "Wealth through investments, speculation, or creative ventures. Financial gains through education or children.",
+        "negative": "May face losses through speculation or investments. Need to avoid risky financial ventures."
+      },
+      "6": {
+        "positive": "Wealth through overcoming obstacles, service, or competitive fields. Financial gains after initial struggles.",
+        "negative": "May face financial losses through enemies, debts, or health expenses. Need to manage debts carefully."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, spouse, or business collaborations. Financial gains through marriage or partnerships.",
+        "negative": "May face financial losses through partnerships or spouse-related matters. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through hidden sources, inheritance, or transformation. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or expenses. Need to be cautious with joint finances and insurance."
+      },
+      "9": {
+        "positive": "Wealth through father, dharma, or long-distance sources. Financial gains through higher knowledge or foreign sources.",
+        "negative": "May face financial losses through father or long-distance matters. Need to be careful with foreign investments."
+      },
+      "10": {
+        "positive": "Excellent for career-related wealth. High income through profession, authority, or government sources.",
+        "negative": "May face financial challenges if career is unstable. Need to build multiple income sources."
+      },
+      "11": {
+        "positive": "Excellent for gains and income. Wealth through friends, networking, or social connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, spirituality, or behind-the-scenes work. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Moon": {
+      "1": {
+        "positive": "Wealth through public recognition or liquid assets. Financial gains through public service or media.",
+        "negative": "May face financial fluctuations. Need to maintain stable income sources and avoid emotional spending."
+      },
+      "2": {
+        "positive": "Wealth through food industry, beverages, or liquid assets. Financial stability through business.",
+        "negative": "May face losses through family or food-related expenses. Need careful financial planning."
+      },
+      "3": {
+        "positive": "Wealth through communication, writing, or local business. Financial gains through short-distance trade.",
+        "negative": "May face losses through siblings or communication expenses. Need to manage sibling-related finances."
+      },
+      "4": {
+        "positive": "Wealth through property, real estate, or mother-related sources. Financial security through assets.",
+        "negative": "May face losses through property or mother-related matters. Property disputes or expenses possible."
+      },
+      "5": {
+        "positive": "Wealth through investments, creativity, or children. Financial gains through education or speculation.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Wealth through service, healthcare, or overcoming obstacles. Financial gains after initial struggles.",
+        "negative": "May face losses through enemies, debts, or health expenses. Need to manage debts and health costs."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, spouse, or collaborations. Financial gains through marriage or business partnerships.",
+        "negative": "May face losses through partnerships or spouse-related matters. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through hidden sources or inheritance. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Wealth through father, dharma, or long-distance sources. Financial gains through higher knowledge.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through career and profession. Financial gains through public recognition or career success.",
+        "negative": "May face financial fluctuations if career is unstable. Need to build stable income sources."
+      },
+      "11": {
+        "positive": "Excellent for gains and income. Wealth through friends, networking, or social connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources or spirituality. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Mars": {
+      "1": {
+        "positive": "Wealth through courage, action, or competitive fields. Financial gains through dynamic leadership.",
+        "negative": "May face financial losses through impulsive actions or conflicts. Need to avoid hasty financial decisions."
+      },
+      "2": {
+        "positive": "Wealth through bold actions and courage. Financial gains through competitive business.",
+        "negative": "May face losses through family disputes or aggressive financial moves. Need to manage family finances carefully."
+      },
+      "3": {
+        "positive": "Wealth through communication, writing, or technical fields. Financial gains through courage and action.",
+        "negative": "May face losses through siblings or conflicts. Need to manage sibling-related finances carefully."
+      },
+      "4": {
+        "positive": "Wealth through property, construction, or real estate. Financial gains through property development.",
+        "negative": "May face losses through property disputes or mother-related expenses. Property conflicts possible."
+      },
+      "5": {
+        "positive": "Wealth through sports, entertainment, or creative ventures. Financial gains through competitive fields.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Excellent for wealth through competitive fields, law, or healthcare. Financial gains after overcoming obstacles.",
+        "negative": "May face losses through enemies, debts, or legal expenses. Need to manage debts and legal matters."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, but may have conflicts. Financial gains through business partnerships.",
+        "negative": "May face losses through partnership conflicts or spouse-related matters. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, investigation, or transformation. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Wealth through law, philosophy, or long-distance sources. Financial gains through higher knowledge.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through strong career drive and leadership. Financial gains through authority and recognition.",
+        "negative": "May face financial challenges if career conflicts arise. Need to manage career-related expenses."
+      },
+      "11": {
+        "positive": "Wealth through courage and networking. Financial gains through bold actions and social connections.",
+        "negative": "May face losses through friends or conflicts. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources or transformation. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses through hidden enemies. Need to control spending."
+      }
+    },
+    "Mercury": {
+      "1": {
+        "positive": "Wealth through communication, writing, or business. Financial gains through intelligence and communication skills.",
+        "negative": "May face financial losses through poor communication or business mistakes. Need careful financial planning."
+      },
+      "2": {
+        "positive": "Wealth through business, writing, or communication. Financial stability through business acumen.",
+        "negative": "May face losses through family or communication expenses. Need to manage family finances carefully."
+      },
+      "3": {
+        "positive": "Excellent for wealth through writing, communication, or media. Financial gains through communication skills.",
+        "negative": "May face losses through siblings or communication expenses. Need to manage sibling-related finances."
+      },
+      "4": {
+        "positive": "Wealth through education, real estate, or property. Financial gains through knowledge-based assets.",
+        "negative": "May face losses through property or education expenses. Property or education-related costs possible."
+      },
+      "5": {
+        "positive": "Wealth through teaching, writing, or creative fields. Financial gains through education or creativity.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Wealth through service, healthcare, or technical writing. Financial gains through service-oriented work.",
+        "negative": "May face losses through enemies, debts, or health expenses. Need to manage debts carefully."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, business, or trade. Financial gains through business partnerships.",
+        "negative": "May face losses through partnership disputes or business mistakes. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, investigation, or technical analysis. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Wealth through teaching, philosophy, or long-distance communication. Financial gains through higher knowledge.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through business, communication, or administration. Financial gains through professional success.",
+        "negative": "May face financial challenges if business is unstable. Need to build stable income sources."
+      },
+      "11": {
+        "positive": "Wealth through networking, friends, or communication. Financial gains through social connections.",
+        "negative": "May face losses through friends or communication expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, writing, or behind-the-scenes work. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Jupiter": {
+      "1": {
+        "positive": "Excellent for wealth through knowledge, teaching, or guidance. Financial gains through wisdom and higher knowledge.",
+        "negative": "May face financial losses if Jupiter is weak or afflicted. Need to invest in knowledge and education."
+      },
+      "2": {
+        "positive": "Excellent for wealth through knowledge, teaching, or guidance. Money follows when you invest in skills, education, or leadership roles.",
+        "negative": "May face initial delays in wealth accumulation. Need patience and long-term financial planning."
+      },
+      "3": {
+        "positive": "Wealth through writing, teaching, or communication. Financial gains through education or communication.",
+        "negative": "May face losses through siblings or communication expenses. Need to manage sibling-related finances."
+      },
+      "4": {
+        "positive": "Wealth through education, real estate, or property. Financial gains through knowledge-based assets.",
+        "negative": "May face losses through property or education expenses. Property or education-related costs possible."
+      },
+      "5": {
+        "positive": "Wealth through teaching, philosophy, or creative education. Financial gains through education or creativity.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Wealth through law, teaching, or service. Financial gains through service-oriented work.",
+        "negative": "May face losses through enemies, debts, or legal expenses. Need to manage debts and legal matters."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, especially in education or law. Financial gains through educational partnerships.",
+        "negative": "May face losses through partnership disputes. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, philosophy, or transformation. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Excellent for wealth through teaching, philosophy, or spiritual pursuits. Financial gains through higher knowledge.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through high position, law, teaching, or administration. Financial gains through authority and recognition.",
+        "negative": "May face financial challenges if career is unstable. Need to build stable income sources."
+      },
+      "11": {
+        "positive": "Excellent for gains through knowledge, networking, or guidance. Financial gains through wisdom and social connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, spirituality, or teaching. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Venus": {
+      "1": {
+        "positive": "Wealth through arts, beauty, luxury, or entertainment. Financial gains through creative or luxury businesses.",
+        "negative": "May face financial losses through excessive spending on luxury. Need to control expenses on comforts."
+      },
+      "2": {
+        "positive": "Wealth through arts, beauty, or luxury businesses. Financial stability through creative or luxury sources.",
+        "negative": "May face losses through family or luxury expenses. Need to manage family finances and control spending."
+      },
+      "3": {
+        "positive": "Wealth through arts, communication, or creative writing. Financial gains through creative communication.",
+        "negative": "May face losses through siblings or communication expenses. Need to manage sibling-related finances."
+      },
+      "4": {
+        "positive": "Wealth through real estate, property, or comfort-oriented fields. Financial gains through property or hospitality.",
+        "negative": "May face losses through property or mother-related expenses. Property disputes or expenses possible."
+      },
+      "5": {
+        "positive": "Wealth through arts, entertainment, or creative fields. Financial gains through creativity or entertainment.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Wealth through service, healthcare, or beauty industry. Financial gains through service-oriented work.",
+        "negative": "May face losses through enemies, debts, or health expenses. Need to manage debts and health costs."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, especially in arts or business. Financial gains through artistic or business partnerships.",
+        "negative": "May face losses through partnership disputes or spouse-related matters. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, transformation, or hidden arts. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Wealth through arts, philosophy, or long-distance sources. Financial gains through creative or foreign sources.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through arts, luxury, or entertainment industry. Financial gains through creative or luxury professions.",
+        "negative": "May face financial challenges if career is unstable. Need to build stable income sources."
+      },
+      "11": {
+        "positive": "Wealth through arts, networking, or luxury businesses. Financial gains through creative or social connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, spiritual arts, or behind-the-scenes creative work. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Saturn": {
+      "1": {
+        "positive": "Wealth through hard work, discipline, or government service. Financial gains through persistence and long-term planning.",
+        "negative": "May face financial delays or challenges in early life. Need patience and disciplined financial planning."
+      },
+      "2": {
+        "positive": "Wealth through hard work, but may have delays. Success through persistence, but requires patience and discipline.",
+        "negative": "May face initial delays or expenses in savings. Think careful budgeting to avoid minor setbacks."
+      },
+      "3": {
+        "positive": "Wealth through communication, but with delays or obstacles. Financial gains through persistence.",
+        "negative": "May face losses through siblings or communication expenses. Need to manage sibling-related finances carefully."
+      },
+      "4": {
+        "positive": "Wealth through real estate, property, or old structures. Financial gains through traditional property investments.",
+        "negative": "May face losses through property or mother-related expenses. Property disputes or expenses possible."
+      },
+      "5": {
+        "positive": "Wealth through teaching or creative fields, but with delays. Financial gains through patience and persistence.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Wealth through service, healthcare, or overcoming obstacles. Financial gains after initial struggles.",
+        "negative": "May face losses through enemies, debts, or health expenses. Need to manage debts and health costs."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, but may have delays or obstacles. Financial gains through patience in partnerships.",
+        "negative": "May face losses through partnership disputes or delays. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, transformation, or long-lasting work. Unexpected financial gains possible.",
+        "negative": "May delay windfalls or bring unexpected expenses early on. Manage with discipline."
+      },
+      "9": {
+        "positive": "Wealth through philosophy, teaching, or long-distance sources. Financial gains through higher knowledge.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through delayed but stable career, government service, or authority. Financial gains through long-term career success.",
+        "negative": "May face financial challenges if career is delayed. Need to build stable income sources with patience."
+      },
+      "11": {
+        "positive": "Wealth through hard work, networking, or old friends. Financial gains through persistence and long-term connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, spirituality, or isolation. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Rahu": {
+      "1": {
+        "positive": "Wealth through unconventional means, technology, or foreign connections. Financial gains through innovation.",
+        "negative": "May face financial losses through impulsive risks or fluctuations. Need to avoid hasty financial decisions."
+      },
+      "2": {
+        "positive": "Wealth through unconventional means or technology. Financial gains through innovative approaches.",
+        "negative": "May face losses through family disputes or unconventional expenses. Need to manage family finances carefully."
+      },
+      "3": {
+        "positive": "Wealth through communication, technology, or media. Financial gains through innovative communication.",
+        "negative": "May face losses through siblings or technology expenses. Need to manage sibling-related finances."
+      },
+      "4": {
+        "positive": "Wealth through real estate, property, or unconventional fields. Financial gains through innovative property investments.",
+        "negative": "May face losses through property disputes or unconventional expenses. Property conflicts possible."
+      },
+      "5": {
+        "positive": "Wealth through technology, entertainment, or creative fields. Financial gains through innovative ventures.",
+        "negative": "May face losses through speculation or risky investments. Avoid very risky financial ventures."
+      },
+      "6": {
+        "positive": "Wealth through service, technology, or overcoming obstacles. Financial gains after initial struggles.",
+        "negative": "May face losses through enemies, debts, or technology expenses. Need to manage debts carefully."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, especially foreign or unconventional. Financial gains through innovative partnerships.",
+        "negative": "May face losses through partnership conflicts or unconventional expenses. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, technology, or transformation. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Wealth through philosophy, technology, or long-distance sources. Financial gains through innovative foreign sources.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through unconventional career, technology, or high position. Financial gains through innovation and authority.",
+        "negative": "May face financial challenges if career is unstable. Need to build stable income sources."
+      },
+      "11": {
+        "positive": "Wealth through networking, technology, or unconventional means. Financial gains through innovative social connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, technology, or spiritual transformation. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    },
+    "Ketu": {
+      "1": {
+        "positive": "Wealth through research, spirituality, or behind-the-scenes work. Financial gains through hidden sources.",
+        "negative": "May face financial losses through hidden expenses or spiritual pursuits. Need careful financial planning."
+      },
+      "2": {
+        "positive": "Wealth through research, spirituality, or hidden sources. Financial gains through unconventional means.",
+        "negative": "May face losses through family or hidden expenses. Need to manage family finances carefully."
+      },
+      "3": {
+        "positive": "Wealth through communication, research, or writing. Financial gains through research or communication.",
+        "negative": "May face losses through siblings or communication expenses. Need to manage sibling-related finances."
+      },
+      "4": {
+        "positive": "Wealth through real estate, property, or hidden fields. Financial gains through behind-the-scenes property work.",
+        "negative": "May face losses through property or mother-related expenses. Property disputes or expenses possible."
+      },
+      "5": {
+        "positive": "Wealth through research, spirituality, or creative fields. Financial gains through research or creativity.",
+        "negative": "May face losses through speculation or children-related expenses. Avoid risky investments."
+      },
+      "6": {
+        "positive": "Wealth through service, research, or overcoming obstacles. Financial gains after initial struggles.",
+        "negative": "May face losses through enemies, debts, or health expenses. Need to manage debts and health costs."
+      },
+      "7": {
+        "positive": "Wealth through partnerships, especially spiritual or research. Financial gains through spiritual or research partnerships.",
+        "negative": "May face losses through partnership disputes or spiritual expenses. Need careful partnership agreements."
+      },
+      "8": {
+        "positive": "Wealth through research, transformation, or spiritual fields. Unexpected financial gains possible.",
+        "negative": "May face sudden financial losses or unexpected expenses. Need to be cautious with joint finances."
+      },
+      "9": {
+        "positive": "Wealth through philosophy, spirituality, or long-distance sources. Financial gains through higher knowledge.",
+        "negative": "May face losses through father or long-distance matters. Need careful planning for foreign investments."
+      },
+      "10": {
+        "positive": "Wealth through spiritual career, research, or behind-the-scenes authority. Financial gains through research or spirituality.",
+        "negative": "May face financial challenges if career is unstable. Need to build stable income sources."
+      },
+      "11": {
+        "positive": "Wealth through research, spirituality, or networking. Financial gains through research or social connections.",
+        "negative": "May face losses through friends or social expenses. Need to be careful with financial partnerships."
+      },
+      "12": {
+        "positive": "Wealth through foreign sources, spirituality, or complete transformation. Hidden financial gains possible.",
+        "negative": "May face high expenses or losses. Need to control spending and avoid unnecessary expenses."
+      }
+    }
+  }
+}
