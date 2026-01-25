@@ -18,6 +18,7 @@ from modules.wealth_analyzer import analyze_wealth
 from modules.health_analyzer import analyze_health
 from modules.marriage_analyzer import analyze_marriage
 from modules.numerology import get_numerology
+from modules.dasha import get_dasha_data
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -125,7 +126,7 @@ def get_birth_chart():
             "d16": chart_result.get('divisionalCharts', {}).get('d16', {})
         }
 
-        # 6. Analyze sections
+        # 6. Analyze sections (career, wealth, health, marriage, numerology, dasha)
         sections = {}
         try:
             sections["career"] = analyze_career(chart) or {}
@@ -135,13 +136,18 @@ def get_birth_chart():
         except Exception as e:
             sections = {"error": f"Analysis error: {str(e)}"}
 
-        # 7. Numerology (Radical, Destiny, Name numbers + remedies)
         try:
-            numerology = get_numerology(data['name'], data['date'])
+            sections["numerology"] = get_numerology(data['name'], data['date'])
         except Exception as e:
-            numerology = {"error": str(e)}
+            sections["numerology"] = {"error": str(e)}
 
-        # 8. Build complete response
+        try:
+            dasha = get_dasha_data(chart)
+            sections["dasha"] = dasha if dasha is not None else {"error": "Dasha data not available"}
+        except Exception as e:
+            sections["dasha"] = {"error": str(e)}
+
+        # 7. Build complete response: numerology and dasha ONLY inside sections (never at top level)
         result = {
             "success": True,
             "basic_details": {
@@ -157,7 +163,6 @@ def get_birth_chart():
             "compatibility": compatibility,
             "panchanga": panchanga_data,
             "sections": sections,
-            "numerology": numerology,
             "input": {
                 'name': data['name'],
                 'date': data['date'],
@@ -167,7 +172,10 @@ def get_birth_chart():
                 'timezone': data['timezone']
             }
         }
-        
+        # Ensure no top-level dasha/numerology (they must only appear under sections)
+        result.pop("dasha", None)
+        result.pop("numerology", None)
+
         return jsonify(result)
         
     except ValueError as e:
@@ -256,7 +264,7 @@ def get_panchanga():
 @app.route('/api/dasha', methods=['POST'])
 def get_dasha():
     """
-    Calculate Vimshottari Dasha periods
+    Get Vimshottari Dasha periods (Mahadasha, Antardasha, Pratyantardasha).
     
     Expected JSON body:
     {
@@ -267,11 +275,19 @@ def get_dasha():
         "longitude": 77.2090,
         "timezone": 5.5
     }
+    
+    Returns:
+      - success, basic_details, input
+      - dasha: { balance, all, current, upcoming, summary }
+        - balance: first mahadasha balance at birth (years per planet)
+        - all: full mahadashas with antardashas and pratyantardashas (start/end dates)
+        - current: currently running mahadasha/antardasha/pratyantardasha
+        - upcoming: next periods
+        - summary: current_mahadasha, current_antardasha, current_pratyantardasha, dates, balance_at_birth_years
     """
     try:
         data = request.get_json()
         
-        # Validate required fields
         required_fields = ['name', 'date', 'time', 'latitude', 'longitude', 'timezone']
         for field in required_fields:
             if field not in data:
@@ -280,10 +296,8 @@ def get_dasha():
                     "error": f"Missing required field: {field}"
                 }), 400
         
-        # Parse datetime
         date_of_birth = parse_datetime(data['date'], data['time'])
         
-        # 1. Calculate the birth chart first
         chart = calculate_birth_chart(
             birth_date=date_of_birth,
             latitude=float(data['latitude']),
@@ -292,24 +306,30 @@ def get_dasha():
             name=data['name']
         )
 
-        # 2. Convert to JSON string
-        json_string = get_birth_chart_json(chart)
-        
-        # Parse JSON and add input data
-        try:
-            result = json.loads(json_string)
-        except TypeError:
-             # Handle case where it returns a dict directly (based on signature hint Dict[str, Any])
-             result = json_string
+        dasha = get_dasha_data(chart)
+        if dasha is None:
+            dasha = {"error": "Dasha data not available"}
 
-        result['success'] = True
-        result['input'] = {
-            'name': data['name'],
-            'date': data['date'],
-            'time': data['time'],
-            'latitude': data['latitude'],
-            'longitude': data['longitude'],
-            'timezone': data['timezone']
+        result = {
+            "success": True,
+            "basic_details": {
+                "name": data['name'],
+                "dob": data['date'],
+                "time": data['time'],
+                "place": data.get('place', ''),
+                "latitude": data['latitude'],
+                "longitude": data['longitude'],
+                "timezone": data['timezone']
+            },
+            "dasha": dasha,
+            "input": {
+                "name": data['name'],
+                "date": data['date'],
+                "time": data['time'],
+                "latitude": data['latitude'],
+                "longitude": data['longitude'],
+                "timezone": data['timezone']
+            }
         }
         
         return jsonify(result)
@@ -340,12 +360,11 @@ if __name__ == '__main__':
     print("  POST /api/birth-chart  - Get complete birth chart with all analyses")
     print("  POST /api/panchanga    - Get Panchanga details")
     print("  POST /api/dasha        - Get Dasha periods")
-    print("\n✨ NEW: /api/birth-chart now includes:")
+    print("\n✨ /api/birth-chart includes:")
     print("  - Compatibility parameters (Varna, Vashya, Yoni, etc.)")
-    print("  - Career analysis (D10)")
-    print("  - Wealth analysis (D2)")
-    print("  - Health analysis (D16)")
-    print("  - Marriage analysis (D9)")
+    print("  - Career, Wealth, Health, Marriage analyses (D10, D2, D16, D9)")
+    print("  - Numerology (Radical, Destiny, Name numbers)")
+    print("  - Dasha (Vimshottari Mahadasha, Antardasha, Pratyantardasha)")
     print("\nPress Ctrl+C to stop the server")
     print("="*60 + "\n")
     
