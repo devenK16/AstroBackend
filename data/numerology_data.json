@@ -1,0 +1,171 @@
+{
+  "numbers": {
+    "1": {
+      "ruling_planet": "Sun",
+      "ruling_planet_vedic": "Surya",
+      "favourable_days": ["Sunday", "Monday"],
+      "favourable_dates": [1, 4, 10, 13, 19, 22, 28, 31],
+      "favourable_colours": ["Orange", "Yellow", "Golden yellow", "Copper", "Gold"],
+      "gemstone": "Ruby (Manikya)",
+      "deity": "Sun God (Surya)",
+      "mantra": "AUM HRIM HRIM SURIYAYE NAMAH AUM",
+      "fast_day": "Sunday",
+      "friendly_numbers": [1, 4, 7],
+      "direction": "East",
+      "radical_summary": "Assertive, individualistic, authoritative, and disciplined. Leadership qualities and strong self-image. Sun influences make you kinglike, original, and strong.",
+      "destiny_summary": "As a destiny number, 1 brings recognition and authority. You are seen as a leader; destiny rewards discipline and originality.",
+      "name_summary": "Name number 1 enhances leadership and individuality. You are known for your strong presence and originality."
+    },
+    "2": {
+      "ruling_planet": "Moon",
+      "ruling_planet_vedic": "Chandra",
+      "favourable_days": ["Monday", "Tuesday"],
+      "favourable_dates": [2, 11, 20, 29],
+      "favourable_colours": ["White", "Silver", "Light blue", "Cream"],
+      "gemstone": "Pearl (Moti)",
+      "deity": "Moon / Chandra",
+      "mantra": "AUM SOM SOMAYE NAMAH AUM",
+      "fast_day": "Monday",
+      "friendly_numbers": [1, 2, 7],
+      "direction": "North-West",
+      "radical_summary": "Emotional, intuitive, and adaptable. Moon gives a queenlike, attractive, ever-changing nature. Sensitive and diplomatic.",
+      "destiny_summary": "Destiny number 2 can bring emotional ups and downs. Success comes through adaptability and cooperation.",
+      "name_summary": "Name number 2 brings charm and emotional depth. You are perceived as caring and flexible."
+    },
+    "3": {
+      "ruling_planet": "Jupiter",
+      "ruling_planet_vedic": "Brihaspati",
+      "favourable_days": ["Thursday", "Monday", "Wednesday"],
+      "favourable_dates": [3, 12, 21, 30, 6, 9, 15, 18, 24, 27],
+      "favourable_colours": ["Yellow", "Pink", "Blue", "Light purple"],
+      "gemstone": "Yellow Sapphire / Yellow Topaz (Pukhraj)",
+      "deity": "Vishnu (Preservation)",
+      "mantra": "AUM BRIM BRAHASPATAYE NAMAH AUM",
+      "fast_day": "Thursday",
+      "friendly_numbers": [1, 3, 6, 9],
+      "direction": "North-East",
+      "radical_summary": "Spiritual, counseling, friendly, and disciplined. Jupiter brings wisdom, generosity, and a love for learning and teaching.",
+      "destiny_summary": "Destiny 3 can create challenges but also brings growth through wisdom and expansion. Success may come after patience.",
+      "name_summary": "Name number 3 brings humour, popularity, and willingness to help. Good for social standing and creativity."
+    },
+    "4": {
+      "ruling_planet": "Rahu",
+      "ruling_planet_vedic": "Rahu (North Node)",
+      "favourable_days": ["Saturday", "Monday"],
+      "favourable_dates": [4, 13, 22, 31],
+      "favourable_colours": ["Grey", "Smoke", "Blue-grey"],
+      "gemstone": "Hessonite / Gomed",
+      "deity": "Rahu",
+      "mantra": "AUM RAAM RAHAVE NAMAH AUM",
+      "fast_day": "Saturday",
+      "friendly_numbers": [4, 6, 8],
+      "direction": "South-West",
+      "radical_summary": "Rebellious, impulsive, unconventional, and secretive. Rahu brings sudden changes and a desire to break norms.",
+      "destiny_summary": "Destiny 4 brings sudden changes and heavy responsibilities. Life may feel exhausting; avoid doubt and isolation.",
+      "name_summary": "Number 4 as name number adds caution and can limit trust. Harmony with psychic number helps."
+    },
+    "5": {
+      "ruling_planet": "Mercury",
+      "ruling_planet_vedic": "Budh",
+      "favourable_days": ["Wednesday", "Friday"],
+      "favourable_dates": [5, 14, 23],
+      "favourable_colours": ["Green", "Light green", "Emerald"],
+      "gemstone": "Emerald (Panna)",
+      "deity": "Mercury / Vishnu",
+      "mantra": "AUM BUM BUDHAYE NAMAH AUM",
+      "fast_day": "Wednesday",
+      "friendly_numbers": [3, 5, 6],
+      "direction": "North",
+      "radical_summary": "Intelligent, quick, entertaining, and communicative. Mercury gives a princely, wily, and sensitive nature.",
+      "destiny_summary": "Destiny 5 is favourable. Success through communication, adaptability, and learning.",
+      "name_summary": "Name number 5 supports versatility and communication. Good for business and intellectual pursuits."
+    },
+    "6": {
+      "ruling_planet": "Venus",
+      "ruling_planet_vedic": "Shukra",
+      "favourable_days": ["Friday", "Thursday"],
+      "favourable_dates": [6, 15, 24],
+      "favourable_colours": ["Pink", "White", "Diamond white", "Light blue"],
+      "gemstone": "Diamond / White Sapphire (Heera)",
+      "deity": "Venus / Lakshmi",
+      "mantra": "AUM SHUM SHUKRAYE NAMAH AUM",
+      "fast_day": "Friday",
+      "friendly_numbers": [1, 3, 6, 9],
+      "direction": "South-East",
+      "radical_summary": "Romantic, diplomatic, sensual, and artistic. Venus brings charm, love of beauty, and a universal friend quality.",
+      "destiny_summary": "Destiny 6 can be challenging; friendly numbers provide support. Focus on balance and partnerships.",
+      "name_summary": "Name number 6 enhances social grace and artistic expression. Good for harmony in relationships."
+    },
+    "7": {
+      "ruling_planet": "Ketu",
+      "ruling_planet_vedic": "Ketu (South Node / Dragon's Tail)",
+      "favourable_days": ["Sunday", "Monday", "Wednesday"],
+      "favourable_dates": [7, 16, 25, 1, 10, 19, 28],
+      "favourable_colours": ["Light green", "Light blue", "White", "Multicolored"],
+      "gemstone": "Cat's Eye (Lahsuniya) - White/Green or Yellow",
+      "deity": "Lord Ganesha / Narsimha (Nrisimha)",
+      "mantra": "oṃ srāṃ srīṃ srauṃ saḥ ketave namaḥ",
+      "mantra_alt": "AUM NRING NRING NRING NARSINGHAYE NAMAH AUM",
+      "fast_day": "Tuesday",
+      "friendly_numbers": [1, 2, 5, 7],
+      "direction": "Ishaan (North-East)",
+      "radical_summary": "Mystical, intuitive, inventive, and philosophical. Ketu gives a dreamlike, spiritual nature. Religiousness and intuitiveness are strengths; others may find you hard to read.",
+      "destiny_summary": "Seven is a good destiny number. It enhances your innate qualities and brings humility, charm, and recognition in art, literature, or diplomacy.",
+      "name_summary": "Name number 7 in harmony with psychic or destiny (except 1 or 5 alone) is good. Brings originality, scholarship, and a pioneer quality."
+    },
+    "8": {
+      "ruling_planet": "Saturn",
+      "ruling_planet_vedic": "Shani",
+      "favourable_days": ["Saturday", "Sunday"],
+      "favourable_dates": [8, 17, 26],
+      "favourable_colours": ["Black", "Blue", "Dark grey", "Navy"],
+      "gemstone": "Blue Sapphire (Neelam) / Amethyst",
+      "deity": "Saturn / Hanuman",
+      "mantra": "AUM SHAM SHANAISCHARAYE NAMAH AUM",
+      "fast_day": "Saturday",
+      "friendly_numbers": [4, 6, 8],
+      "direction": "West",
+      "radical_summary": "Wise, laborious, struggling, and enduring. Saturn gives discipline, patience, and a servant-like dedication. Good as psychic number.",
+      "destiny_summary": "Destiny 8 is challenging; rewards come through hard work and perseverance. Avoid pessimism.",
+      "name_summary": "Name number 8 adds seriousness and responsibility. Can support authority when in harmony."
+    },
+    "9": {
+      "ruling_planet": "Mars",
+      "ruling_planet_vedic": "Mangal",
+      "favourable_days": ["Tuesday", "Thursday"],
+      "favourable_dates": [9, 18, 27],
+      "favourable_colours": ["Red", "Maroon", "Saffron"],
+      "gemstone": "Red Coral (Moonga)",
+      "deity": "Hanuman / Mars",
+      "mantra": "AUM KRAM KREEM KROUM SAHA BHAUMAYE NAMAH AUM",
+      "fast_day": "Tuesday",
+      "friendly_numbers": [1, 3, 6, 9],
+      "direction": "South",
+      "radical_summary": "Warlike, strong, perfectionist, and discriminating. Mars gives courage, energy, and a fighting spirit. Good as destiny number.",
+      "destiny_summary": "Destiny 9 is favourable. You are seen as bold and achieving; success through determination.",
+      "name_summary": "Name number 9 adds courage and visibility. Good for leadership and leaving a mark."
+    }
+  },
+  "karmic_debt": {
+    "13": {
+      "reduces_to": 4,
+      "summary": "Karmic Debt 13: Hard work and obstacles are themes. Success comes through focus, discipline, and perseverance. Avoid laziness and shortcuts; maintain order and follow through.",
+      "lesson": "Focus and discipline. Make the most of every opportunity; stick to a schedule and finish what you start."
+    },
+    "14": {
+      "reduces_to": 5,
+      "summary": "Karmic Debt 14: Arises from past misuse of freedom. You must adapt to change and avoid overindulgence in senses. Moderation and commitment are keys to success.",
+      "lesson": "Commitment and balance. Set a high goal, maintain order, avoid excessive indulgence, and do not give up on your dreams."
+    },
+    "16": {
+      "reduces_to": 7,
+      "summary": "Karmic Debt 16: About the fall of the ego and rebirth. Humility leads to higher consciousness. Avoid egoism and impracticality; trust intuition but stay grounded.",
+      "lesson": "Humility and practicality. Finish what you start; let opportunities come your way. Reunion with higher ideals through letting go of ego."
+    },
+    "19": {
+      "reduces_to": 1,
+      "summary": "Karmic Debt 19: Teaches interdependence and the proper use of power. You may stand alone often; the lesson is to accept support and give up stubborn self-reliance.",
+      "lesson": "No one is an island. Accept help from others; exchange ideas and avoid isolation. Balance independence with connection."
+    }
+  }
+}

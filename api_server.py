@@ -17,6 +17,7 @@ from modules.career_analyzer import analyze_career
 from modules.wealth_analyzer import analyze_wealth
 from modules.health_analyzer import analyze_health
 from modules.marriage_analyzer import analyze_marriage
+from modules.numerology import get_numerology
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -134,7 +135,13 @@ def get_birth_chart():
         except Exception as e:
             sections = {"error": f"Analysis error: {str(e)}"}
 
-        # 7. Build complete response
+        # 7. Numerology (Radical, Destiny, Name numbers + remedies)
+        try:
+            numerology = get_numerology(data['name'], data['date'])
+        except Exception as e:
+            numerology = {"error": str(e)}
+
+        # 8. Build complete response
         result = {
             "success": True,
             "basic_details": {
@@ -150,6 +157,7 @@ def get_birth_chart():
             "compatibility": compatibility,
             "panchanga": panchanga_data,
             "sections": sections,
+            "numerology": numerology,
             "input": {
                 'name': data['name'],
                 'date': data['date'],
