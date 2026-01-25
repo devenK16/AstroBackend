@@ -20,6 +20,7 @@ from modules.marriage_analyzer import analyze_marriage
 from modules.numerology import get_numerology
 from modules.dasha import get_dasha_data
 from modules.yoga_dosha_analyzer import analyze_yoga_dosha
+from modules.personality_insights import get_personality_insights
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -141,6 +142,15 @@ def get_birth_chart():
             sections["yoga_dosha"] = analyze_yoga_dosha(chart)
         except Exception as e:
             sections["yoga_dosha"] = {"error": str(e), "yogas": [], "doshas": [], "summary": "Yoga/Dosha analysis unavailable."}
+
+        try:
+            sections["personality_insights"] = get_personality_insights(
+                chart,
+                panchanga=panchanga_data,
+                yoga_dosha_result=sections.get("yoga_dosha")
+            )
+        except Exception as e:
+            sections["personality_insights"] = {"error": str(e)}
 
         try:
             sections["numerology"] = get_numerology(data['name'], data['date'])

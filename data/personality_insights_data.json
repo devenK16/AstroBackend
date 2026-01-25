@@ -1,0 +1,381 @@
+{
+  "sign_personality": {
+    "Aries": "With Aries as your Lagna, the ascending sign imparts a pioneering and courageous nature. The native tends to have a strong will, initiative, and an instinct to lead; classical texts describe such a person as brave, with a bilious temperament when the Sun is strong, and capable of great valour when Mars (lord of Aries) is well placed. You often take the first step and prefer direct action over long deliberation.",
+    "Taurus": "Taurus rising gives a steady, sensual, and practical disposition. The native is devoted to comfort, security, and beauty, and often possesses a strong connection to the earth and material stability. According to the scriptures, the influence of Venus as lord of the Lagna bestows a love of luxury, a calm demeanour, and an ability to build and retain resources over time.",
+    "Gemini": "With Gemini as the Lagna, the native is curious, communicative, and versatile. The mind is quick and adaptable; classical texts associate Mercury's lordship with learning, wit, and a balanced constitution. You tend to excel where variety, speech, and intellectual exchange are required, and often have a fondness for fun and lighter pursuits alongside serious study.",
+    "Cancer": "Cancer ascending indicates an emotional, nurturing, and protective nature. The Moon as lord of the Lagna bestows sensitivity, a connection to home and family, and a tendency to care for others. The native is often mild in temperament, receptive to the feelings of those around, and drawn to matters of the heart and domestic life.",
+    "Leo": "Leo as Lagna brings a proud, generous, and theatrical quality to the personality. The Sun as lord bestows a desire for recognition, a brave and warm heart, and a natural authority. The native tends to seek the limelight, enjoys giving and receiving respect, and can carry himself or herself with the dignity that classical texts associate with solar influence.",
+    "Virgo": "Virgo rising gives an analytical, service-oriented, and precise nature. Mercury's lordship supports a sharp intellect, attention to detail, and a helpful, sometimes perfectionist approach. The native often excels in tasks requiring discrimination, purity of thought, and practical skill, as described in the traditional significations of the sign.",
+    "Libra": "With Libra as the Lagna, the native is diplomatic, aesthetic, and relationship-oriented. Venus as lord bestows a love of harmony, balance, and beauty in all forms. You tend to seek fairness, avoid unnecessary conflict, and are often drawn to partnership, art, and the finer aspects of life.",
+    "Scorpio": "Scorpio ascending indicates intensity, depth, and a transformative nature. Mars as lord of the sign lends power, secrecy, and emotional depth. The native often has a penetrating mind, a capacity for renewal after crisis, and a quality that classical texts link to the fixed water sign—steadfast in feeling but not easily read.",
+    "Sagittarius": "Sagittarius as Lagna bestows a philosophical, expansive, and freedom-loving disposition. Jupiter as lord gives optimism, a thirst for higher knowledge, and a generous spirit. The native tends to seek truth and meaning, enjoys travel and learning, and often carries a moral or ethical outlook that shapes major decisions.",
+    "Capricorn": "Capricorn rising imparts ambition, discipline, and a strong sense of responsibility. Saturn as lord supports long-term planning, maturity beyond years, and the ability to build lasting structures. The native often works steadily toward goals and is willing to accept delay and hardship for eventual success.",
+    "Aquarius": "With Aquarius as the Lagna, the native is independent, innovative, and humanitarian. Saturn's lordship in this sign gives a blend of discipline and idealism. You often value uniqueness, progress, and the welfare of the larger group, and may be seen as somewhat detached or ahead of your time.",
+    "Pisces": "Pisces ascending gives an imaginative, compassionate, and impressionable nature. Jupiter as lord bestows spiritual and artistic sensitivity, and a tendency to merge with the feelings of others. The native often has a soft, adaptable personality and a connection to the unseen—arts, faith, or service—as described in the classics."
+  },
+  "nakshatra_personality": {
+    "Ashwini": "Moon in Ashwini adds quickness, a healing impulse, and an enterprising spirit. The native tends to be a natural starter, helpful and swift in action, with the vitality of the Ashwini Kumaras. There is often an ability to initiate things and to bring energy to new ventures.",
+    "Bharani": "Bharani nakshatra brings a capacity to bear burdens and a creative, intense nature. The native may endure much and yet retain the power of creation and renewal. Classical references link this asterism to Yama and to the balance between loss and regeneration.",
+    "Kritika": "Kritika bestows sharpness, a cutting clarity, and a purifying drive. The native often has the ability to discriminate and to achieve through focused effort. The influence of Agni gives warmth and the capacity to burn away what is not needed.",
+    "Rohini": "Rohini adds nurturing, fertility, and a love of beauty and growth. The native tends to be attractive in demeanour, devoted to what is pleasant and fruitful, and often enjoys stability and sensory comforts, as Brahma and the moon are said to favour this nakshatra.",
+    "Mrigashira": "Mrigashira gives a searching, gentle, and curious mind. The native often explores—whether in thought, travel, or relationships—and has a soft, receptive quality that seeks meaning and connection.",
+    "Ardra": "Ardra brings stormy transformation and intellectual power. The native can clear and rebuild; there is an ability to endure upheaval and to emerge with greater understanding, as suggested by the association with Rudra and the transformative storm.",
+    "Punarvasu": "Punarvasu signifies renewal, nourishment, and return. The native often has the ability to recover from setbacks and to sustain hope and resources. There is a restorative quality that Aditi and Jupiter are said to support.",
+    "Pushya": "Pushya is nourishing, protective, and auspicious. The native tends to be a caretaker and supporter of others, with a natural inclination toward what is beneficial and safe, in line with Brihaspati and the idea of nourishment.",
+    "Ashlesha": "Ashlesha adds mystery, penetration, and a serpentine depth. The native may have secret strength, a sharp intellect, and the ability to understand what is hidden, as the Naga and Mercury influence suggest.",
+    "Magha": "Magha bestows a regal, ancestral, and proud quality. The native often has a connection to tradition, authority, and the past, and may carry himself or herself with dignity, in keeping with the Pitris and the royal symbolism.",
+    "Purva Phalguni": "Purva Phalguni brings enjoyment, partnership, and creativity. The native tends to love pleasure, art, and relationship, and to seek happiness in union and beauty, as Bhaga and Venus suggest.",
+    "Uttara Phalguni": "Uttara Phalguni adds fixity in relationships, support, and retention. The native is often loyal, stable, and able to hold what matters—people, projects, or values—with consistency.",
+    "Hasta": "Hasta bestows skill, cleverness, and dexterity. The native tends to accomplish much with hands and mind, to be witty and capable in practical matters, in line with Savitr and the idea of the skilled craftsman.",
+    "Chitra": "Chitra adds brilliance, artistry, and the ability to build form and beauty. The native often creates visible results—in art, design, or structure—and carries a radiant quality that Vishwakarma and Mars are said to support.",
+    "Swati": "Swati gives independence, a wind-like movement, and an affinity for trade and change. The native often values freedom and is able to adapt and move with the times.",
+    "Vishakha": "Vishakha brings goal-oriented determination and transformative drive. The native tends to burn with purpose until objectives are met, as Indra Agni and the idea of indestructible victory suggest.",
+    "Anuradha": "Anuradha adds devotion, friendship, and loyalty. The native often has the capacity to bind people and causes together and to succeed through dedication and alliance.",
+    "Jyeshta": "Jyeshta bestows seniority, protectiveness, and a fierce inner strength. The native may be seen as the eldest or the one who defends, with a quality that is not always visible but is formidable when needed.",
+    "Mula": "Mula brings a root-deep nature, foundation, and the power of demolition and renewal. The native often goes to the source of things and is willing to tear down in order to rebuild.",
+    "Purva Ashadha": "Purva Ashadha gives invincibility and purification. The native is often hard to defeat in spirit and tends to seek purity and victory in endeavours, as Apas and Venus suggest.",
+    "Uttara Ashadha": "Uttara Ashadha bestows permanent victory and endurance. The native tends to achieve in a way that lasts and to persist where others give up.",
+    "Shravana": "Shravana adds listening, learning, and connection to sound and fame. The native often gains through hearing, study, and recognition, in line with Vishnu and the ear of the sky.",
+    "Dhanishta": "Dhanishta brings wealth, rhythm, and fame. The native may prosper and resonate with others through talent, timing, or presence, as the Vasus and Mars are said to support.",
+    "Shatabhisha": "Shatabhisha gives a hidden, healing quality and a touch of the mystic. The native often has an affinity for cure, secrecy, or the hundred physicians of this asterism.",
+    "Purva Bhadrapada": "Purva Bhadrapada adds transformation, depth, and fire. The native may undergo intense change and carry a zeal that can consume and renew.",
+    "Uttara Bhadrapada": "Uttara Bhadrapada bestows depth of waters, wisdom, and a capacity for reflection. The native often has a serious, philosophical side and the ability to see the aftermath of events and to learn from them.",
+    "Revati": "Revati is nourishing, prosperous, and carries a sense of completion. The native tends to enjoy abundance and to bring matters to a fruitful close, as Pushan and Mercury suggest."
+  },
+  "sign_positive_traits": {
+    "Aries": [
+      "You display natural courage and initiative; you are often the first to take action and to lead others when the situation demands it.",
+      "Your strong will and pioneering spirit help you overcome obstacles that would deter others.",
+      "You have the ability to inspire and motivate people through your directness and fearlessness.",
+      "When well placed, your Lagna gives you physical and mental vitality that supports long-term endeavours."
+    ],
+    "Taurus": [
+      "You have a steady, reliable nature that others find comforting; you build security and trust over time.",
+      "Your appreciation for beauty and comfort helps you create harmonious environments and relationships.",
+      "You are able to retain and grow resources through patience and practical judgment.",
+      "Your sensual and grounded disposition brings stability to your own life and to those close to you."
+    ],
+    "Gemini": [
+      "Your quick wit and adaptability make you excellent at communication, learning, and handling varied tasks.",
+      "You have a natural curiosity that leads to knowledge and the ability to connect different ideas.",
+      "Your versatility allows you to succeed in many fields and to adjust to change without losing balance.",
+      "You often bring a light, clever touch that eases tensions and opens dialogue."
+    ],
+    "Cancer": [
+      "Your emotional intelligence and nurturing nature make you a source of care and support for others.",
+      "You have a strong intuitive sense that helps you understand unspoken feelings and needs.",
+      "Your connection to home and family gives you a stable base from which to face the world.",
+      "You are able to protect and nourish what you value, whether people, projects, or traditions."
+    ],
+    "Leo": [
+      "Your natural authority and generosity win you respect and loyalty from others.",
+      "You have the ability to shine in the limelight and to lead with warmth and dignity.",
+      "Your creative and theatrical side helps you inspire and entertain those around you.",
+      "When well placed, you carry yourself with the confidence that attracts good fortune and recognition."
+    ],
+    "Virgo": [
+      "Your analytical mind and attention to detail make you reliable in critical tasks and decisions.",
+      "You have a strong sense of service and a desire to improve things through practical effort.",
+      "Your discrimination helps you separate what is useful from what is not, in work and in life.",
+      "You bring purity of intention and clarity of thought to whatever you undertake."
+    ],
+    "Libra": [
+      "Your diplomatic nature and sense of fairness help you maintain harmony in relationships and groups.",
+      "You have an eye for beauty and balance that benefits your environment and your partnerships.",
+      "You are often able to see multiple sides of an issue and to find a middle path.",
+      "Your charm and social grace make you welcome in many circles and effective in negotiation."
+    ],
+    "Scorpio": [
+      "Your depth and intensity give you the power to transform difficult situations and to renew yourself.",
+      "You have a penetrating understanding of people and motives that others may miss.",
+      "Your loyalty, once given, is steadfast and your resilience in crisis is high.",
+      "You are able to keep confidences and to operate with quiet strength when needed."
+    ],
+    "Sagittarius": [
+      "Your philosophical outlook and love of learning expand your horizons and those of others.",
+      "You have a generous spirit and an optimism that helps you and others through hard times.",
+      "Your honesty and ethical stance make you a trusted guide and advisor.",
+      "You seek meaning and truth in life and often inspire others to do the same."
+    ],
+    "Capricorn": [
+      "Your discipline and long-term focus help you achieve goals that require patience and effort.",
+      "You have a mature sense of responsibility that makes you reliable in leadership and duty.",
+      "You are able to build lasting structures—in career, family, or institutions—through steady work.",
+      "Your ability to endure delay and hardship often leads to lasting success and respect."
+    ],
+    "Aquarius": [
+      "Your independence and originality make you capable of innovation and unconventional solutions.",
+      "You often care for the welfare of the group and work for causes larger than yourself.",
+      "Your detachment can help you stay fair and objective in emotional or conflicting situations.",
+      "You value progress and ideals and can inspire others to think beyond the immediate."
+    ],
+    "Pisces": [
+      "Your compassion and imagination make you sensitive to the suffering and dreams of others.",
+      "You have a natural affinity for art, spirituality, or service that transcends the mundane.",
+      "Your adaptability and softness allow you to blend with different people and situations.",
+      "You often bring a healing or uplifting quality to relationships and creative work."
+    ]
+  },
+  "sign_negative_traits": {
+    "Aries": [
+      "You may be impulsive or quick to anger when challenged, and can rush into action before fully weighing consequences.",
+      "A strong need to be first or to win can sometimes lead to unnecessary conflict or impatience with others."
+    ],
+    "Taurus": [
+      "Stubbornness and over-attachment to comfort or possessions can slow you down or make change difficult.",
+      "You may sometimes prioritize security and routine over needed risk or adaptation."
+    ],
+    "Gemini": [
+      "A tendency to spread attention across many things can lead to restlessness or difficulty finishing what you start.",
+      "You may occasionally seem superficial or changeable to those who expect a single, fixed stance."
+    ],
+    "Cancer": [
+      "Moodiness and over-sensitivity can make you withdraw or react strongly to perceived slights.",
+      "Excessive attachment to the past or to family can sometimes limit your independence and growth."
+    ],
+    "Leo": [
+      "Pride and a need for constant recognition can lead to hurt feelings or conflict when others do not applaud.",
+      "You may at times dominate or overshadow others without intending to, due to your strong presence."
+    ],
+    "Virgo": [
+      "Over-criticism of yourself and others can create stress and strain in relationships.",
+      "Perfectionism may slow you down or make you anxious when things are not as you think they should be."
+    ],
+    "Libra": [
+      "Indecision and an over-reliance on harmony can make it hard to take a firm stand or to say no.",
+      "You may avoid necessary conflict or sacrifice your own needs to keep the peace."
+    ],
+    "Scorpio": [
+      "Secretiveness and a tendency to hold grudges can isolate you or prolong emotional pain.",
+      "Intensity can sometimes tip into jealousy, control, or an inability to let go of the past."
+    ],
+    "Sagittarius": [
+      "Over-optimism or excess in speech and action can lead to overpromising or tactlessness.",
+      "A constant search for the next horizon may make it hard to commit or to settle where you are."
+    ],
+    "Capricorn": [
+      "Excessive seriousness and fear of failure can make you rigid or overly cautious.",
+      "You may neglect emotional needs or leisure in favour of duty and ambition."
+    ],
+    "Aquarius": [
+      "Emotional detachment can sometimes make you seem cold or indifferent to those who need closeness.",
+      "A strong insistence on being different or right can create distance from family or tradition."
+    ],
+    "Pisces": [
+      "Over-impressionability and escapism can make you vulnerable to deception or addiction.",
+      "A tendency to avoid boundaries can lead to confusion, martyrdom, or loss of sense of self."
+    ]
+  },
+  "nakshatra_positive_traits": {
+    "Ashwini": ["You have a natural ability to start things quickly and to help others in need.", "Your energy and enterprise make you effective in crisis and in new ventures.", "You tend to be fearless in initiating change and in taking the first step."],
+    "Bharani": ["You can bear burdens and still remain creative and productive.", "Your capacity for endurance helps you survive and thrive through difficult phases.", "You have a deep connection to the cycle of creation and transformation."],
+    "Kritika": ["You have clarity of purpose and the drive to achieve through focused effort.", "Your sharp judgment helps you cut through confusion and reach the heart of matters."],
+    "Rohini": ["You bring nurturing and a love of beauty to your relationships and projects.", "Your stable, pleasant nature attracts prosperity and affection."],
+    "Mrigashira": ["Your curious and gentle nature helps you explore and learn without aggression.", "You connect with others through your searching mind and adaptable spirit."],
+    "Ardra": ["You have the strength to endure upheaval and to emerge with greater understanding.", "Your intellectual power helps you transform crises into growth."],
+    "Punarvasu": ["You possess a restorative quality that helps you and others recover from setbacks.", "Your ability to sustain hope and resources supports long-term success."],
+    "Pushya": ["You are a natural caretaker and supporter, and others feel safe around you.", "Your auspicious influence helps protect and nourish what matters."],
+    "Ashlesha": ["You have a penetrating understanding of hidden motives and situations.", "Your inner strength and depth make you formidable when needed."],
+    "Magha": ["You carry yourself with dignity and a connection to tradition and authority.", "Your regal bearing wins respect and opens doors."],
+    "Purva Phalguni": ["You bring enjoyment and creativity to partnership and the arts.", "Your love of pleasure and beauty enriches your relationships."],
+    "Uttara Phalguni": ["You are loyal and stable, and you hold what matters with consistency.", "Your supportive nature makes you a reliable partner and friend."],
+    "Hasta": ["You accomplish much with hands and mind and are skilled in practical matters.", "Your cleverness and dexterity help you succeed in varied tasks."],
+    "Chitra": ["You create visible beauty and form in art, design, or structure.", "Your radiant quality draws admiration and success."],
+    "Swati": ["You value freedom and adapt well to change and movement.", "Your independence and sense of rhythm help you thrive in trade and innovation."],
+    "Vishakha": ["You pursue goals with determination and rarely give up until you achieve.", "Your transformative drive helps you overcome obstacles."],
+    "Anuradha": ["You build success through devotion, friendship, and loyalty.", "Your capacity to bind people and causes together is a great asset."],
+    "Jyeshta": ["You have a fierce inner strength and a protective nature that others rely on.", "Your seniority and hidden power command respect when necessary."],
+    "Mula": ["You go to the root of things and are willing to rebuild from the foundation.", "Your depth and power of renewal help you transform situations."],
+    "Purva Ashadha": ["You are hard to defeat in spirit and seek purity and victory.", "Your invincible quality supports you in competition and endeavour."],
+    "Uttara Ashadha": ["You achieve in a way that lasts and persist where others give up.", "Your endurance and sense of permanent victory bring long-term success."],
+    "Shravana": ["You gain through listening, learning, and the power of sound and recognition.", "Your connection to fame and knowledge serves you well."],
+    "Dhanishta": ["You prosper through talent, timing, and the ability to resonate with others.", "Your wealth and rhythm attract success and admiration."],
+    "Shatabhisha": ["You have a healing quality and an affinity for the mysterious and the cure.", "Your hidden strength and insight serve you in difficult times."],
+    "Purva Bhadrapada": ["You undergo intense change and carry a zeal that can renew and transform.", "Your depth and fire help you overcome great challenges."],
+    "Uttara Bhadrapada": ["You possess depth of thought and a reflective wisdom that others value.", "Your ability to see the aftermath of events helps you plan and learn."],
+    "Revati": ["You have a nourishing presence that helps bring projects and relationships to a good conclusion.", "Your prosperity and sense of completion support success in later life."]
+  },
+  "nakshatra_negative_traits": {
+    "Ashwini": ["You may be too quick at times and skip important steps or details.", "Restlessness can make it hard to sustain long-term commitments."],
+    "Bharani": ["You may carry more burden than necessary and find it hard to let go.", "Intensity can sometimes tip into possessiveness or jealousy."],
+    "Kritika": ["You may be overly sharp or critical and hurt others without intending to.", "A cutting approach can create unnecessary conflict."],
+    "Rohini": ["You may become too attached to pleasure and comfort and resist change.", "Possessiveness in relationships can surface from time to time."],
+    "Mrigashira": ["You may scatter your energy across too many pursuits and delay completion.", "Indecision or constant searching can weary you and others."],
+    "Ardra": ["Stormy emotions or harsh speech can create upheaval in relationships.", "You may need to guard against destructiveness when hurt or angry."],
+    "Punarvasu": ["You may cling to the past or to safe options and avoid necessary risk.", "Over-nurturing can sometimes prevent others from growing."],
+    "Pushya": ["You may be overprotective or too cautious and miss opportunities.", "A desire to keep things safe can limit adventure and growth."],
+    "Ashlesha": ["Secretiveness or a tendency to manipulate can distance you from others.", "Your penetrating nature may sometimes feel overwhelming to those close to you."],
+    "Magha": ["Pride and attachment to status can make you inflexible or easily offended.", "You may expect too much deference from others."],
+    "Purva Phalguni": ["Overindulgence in pleasure or dependence on partnership can weaken you.", "A need for constant enjoyment may distract from deeper goals."],
+    "Uttara Phalguni": ["You may be stubborn in relationships and resist change even when needed.", "A fixed view of loyalty can sometimes be limiting."],
+    "Hasta": ["You may be overly clever or deceptive and lose trust.", "A tendency to play many roles can leave others unsure of the real you."],
+    "Chitra": ["Vanity or obsession with appearance can overshadow substance.", "You may be quick to take offence if not admired."],
+    "Swati": ["Excessive independence can make commitment and stability difficult.", "You may avoid emotional depth in favour of movement and change."],
+    "Vishakha": ["Your intensity can burn others or yourself if unchecked.", "A win-at-all-costs attitude may harm relationships."],
+    "Anuradha": ["You may be overly attached to friends or causes and feel betrayed easily.", "Loyalty can tip into dependency or jealousy."],
+    "Jyeshta": ["You may be secretive or cynical and push people away.", "A tendency to feel overlooked can breed resentment."],
+    "Mula": ["You may destroy without rebuilding or hurt others in the name of truth.", "Rooting out problems can turn into harshness or intolerance."],
+    "Purva Ashadha": ["You may be overly aggressive in pursuit of victory or purity.", "Inflexibility can make compromise difficult."],
+    "Uttara Ashadha": ["You may be stubborn to the point of obstinacy and refuse to yield.", "A need for permanent victory can make you reluctant to adapt."],
+    "Shravana": ["You may listen too much to others and lose your own voice.", "A desire for fame can lead to imbalance or dependency on applause."],
+    "Dhanishta": ["You may prioritize rhythm and success over emotional depth.", "Wealth and status can sometimes overshadow relationships."],
+    "Shatabhisha": ["You may be too aloof or mysterious and keep others at a distance.", "A preference for the hidden can isolate you."],
+    "Purva Bhadrapada": ["Your zeal can tip into fanaticism or burnout.", "Intense transformation may overwhelm you or those around you."],
+    "Uttara Bhadrapada": ["You may be overly serious or pessimistic at times.", "A tendency to dwell on the dark or the aftermath can weigh on your mood."],
+    "Revati": ["You may be too yielding or too attached to comfort and the status quo.", "A desire for completion can make you impatient with ongoing process."]
+  },
+  "planet_strength_meaning": {
+    "Sun": "With the Sun strong in your chart, you carry a natural sense of authority and self-worth. You tend to be courageous, vital, and capable of leadership; the classical texts say such a native may enjoy recognition, a strong constitution, and the ability to command respect.",
+    "Moon": "A strong Moon bestows emotional resilience, intuition, and public appeal. You are likely to be receptive, caring, and able to connect with many people; your mind is fertile and you often benefit from following your inner voice.",
+    "Mars": "Mars with strength gives courage, energy, and the drive to overcome obstacles. You tend to take action where others hesitate and to fight for what you believe in; when well placed, you can be exceedingly generous as well as valorous.",
+    "Mercury": "Strong Mercury supports intelligence, communication, and versatility. You learn quickly, adapt to change, and often excel in speech, writing, or commerce; the texts describe a balanced build and a fondness for wit and learning.",
+    "Jupiter": "Jupiter strong in the chart bestows wisdom, optimism, and growth. You tend to seek knowledge and to share it; you may enjoy good fortune, moral clarity, and the respect due to teachers and guides.",
+    "Venus": "Venus with strength gives charm, creativity, and harmony. You attract beauty and love, and often succeed in arts, relationships, or luxury; the classical description includes a pleasing appearance and a capacity for enjoyment.",
+    "Saturn": "Strong Saturn bestows discipline, endurance, and maturity. You build lasting structures through patience and hard work; though you may face delays, you often achieve solid, respected results in the long run."
+  },
+  "planet_weakness_meaning": {
+    "Sun": "When the Sun is weak or afflicted, you may face challenges with self-esteem, recognition, or relationship with father and authority. There can be a need for validation or a tendency to either shrink from or overassert your role.",
+    "Moon": "A weak or afflicted Moon may bring emotional sensitivity, mood swings, or a strong need for security and comfort. The mind can be restless or easily hurt, and you may benefit from stable routines and supportive relationships.",
+    "Mars": "Mars in difficulty can show as impatience, anger, or a tendency to rush into conflict. There may be accidents, disputes, or a feeling of being blocked in action; channeling energy through discipline and sport can help.",
+    "Mercury": "Mercury afflicted may cause nervousness, indecision, or mishaps in communication and travel. There can be difficulty in concentration or in being understood; careful speech and written agreements are advisable.",
+    "Jupiter": "Jupiter weak or afflicted may lead to over-optimism, excess, or moral confusion. There can be setbacks in higher education, children, or long-distance matters; patience and moderation are recommended.",
+    "Venus": "Venus in difficulty can bring indulgence, ups and downs in relationships, or attachment issues. There may be delay or strain in marriage, pleasure, or creative work; balance and moderation in partnerships help.",
+    "Saturn": "Saturn afflicted often brings delays, fear, rigidity, or a sense of burden. There can be obstacles in career, health, or responsibilities; acceptance of timing and careful effort rather than force improve outcomes."
+  },
+  "world_sees_by_tenth_lord": {
+    "Sun": "The world tends to see you as a leader or person of authority, someone who belongs in the limelight. Your profession and public image often reflect warmth, confidence, and a capacity to take charge.",
+    "Moon": "Others perceive you as emotional, popular, or strongly connected to the public and to changing moods of the crowd. Your career may involve care, media, or work that touches many people.",
+    "Mars": "You are seen as dynamic, competitive, and a doer. People associate you with action, courage, or fields that require energy and initiative, such as sports, engineering, or conflict resolution.",
+    "Mercury": "The world views you as intelligent, communicative, or an expert in your field. Your professional image is often linked to writing, teaching, business, or technology.",
+    "Jupiter": "Others see you as wise, respected, or in a role of teaching and guidance. Your reputation may be built on knowledge, ethics, or expansion in wealth and learning.",
+    "Venus": "You are perceived as charming, artistic, or connected to luxury and creativity. Your public image often involves beauty, partnership, or the finer things in life.",
+    "Saturn": "People tend to see you as serious, responsible, or in a structured role. Your career image may involve long service, discipline, or positions that require patience and maturity."
+  },
+  "world_sees_by_lagna_element": {
+    "fire": "Your rising sign is of the fire element (Aries, Leo, or Sagittarius), so others often perceive you as energetic, pioneering, or bold. You tend to leave an impression of warmth, action, and confidence.",
+    "earth": "Your Lagna is an earth sign (Taurus, Virgo, or Capricorn), so you are typically seen as reliable, practical, and grounded. People trust you with material and practical matters.",
+    "air": "With an air-sign Lagna (Gemini, Libra, or Aquarius), you come across as intellectual, social, or communicative. You are often valued for your ideas and your ability to connect with others.",
+    "water": "Your ascending sign is watery (Cancer, Scorpio, or Pisces), so others may sense you as emotional, intuitive, or private. Your presence often carries depth and sensitivity."
+  },
+  "sign_element": {
+    "Aries": "fire", "Leo": "fire", "Sagittarius": "fire",
+    "Taurus": "earth", "Virgo": "earth", "Capricorn": "earth",
+    "Gemini": "air", "Libra": "air", "Aquarius": "air",
+    "Cancer": "water", "Scorpio": "water", "Pisces": "water"
+  },
+  "negative_trait_house": {
+    "6": "Planets in the 6th house can bring stress related to enemies, health, or service under pressure; the native may have to work harder to overcome obstacles and competition.",
+    "8": "Placements in the 8th house may give hidden struggles, fear of loss, or a need to face transformation and secrecy; longevity and shared resources may require care.",
+    "12": "The 12th house can indicate expenses, solitude, or escapist tendencies; the native may need to guard against loss through carelessness or too much withdrawal."
+  },
+  "default_positive_traits": [
+    "You have the ability to remain steady under pressure and to support others when they need it.",
+    "Your chart suggests a capacity for growth through learning and through connections with teachers and mentors.",
+    "You possess an underlying resilience that helps you recover from setbacks and continue toward your goals.",
+    "There is a natural dignity in your bearing that draws respect from those who take the time to know you."
+  ],
+  "default_negative_traits": [
+    "At times you may need to guard against being too hard on yourself or too cautious in taking necessary risks.",
+    "You might experience periods of delay or confusion; patience and clear boundaries can help you navigate them."
+  ],
+  "planet_house_meanings_d1": {
+    "Sun": {
+      "1": "Sun in the 1st house (Lagna) gives a strong sense of self, leadership, and vitality. The native tends to be confident, dignified, and capable of commanding respect; the classical texts associate this placement with authority and a prominent personality.",
+      "2": "Sun in the 2nd house supports wealth, family honour, and speech. The native may acquire property and respect through their own efforts and may have a strong connection to family and ancestral values.",
+      "3": "Sun in the 3rd house strengthens courage, siblings, and short travels. The native tends to be valorous, determined, and successful in undertakings that require initiative and communication.",
+      "4": "Sun in the 4th house influences mother, property, and inner peace. The native may enjoy landed property, vehicles, and comfort, though the relationship with mother or emotional security may need attention.",
+      "5": "Sun in the 5th house supports children, intellect, and speculative gains. The native may be intelligent, creative, and favoured in matters of education and progeny when Sun is strong.",
+      "6": "Sun in the 6th house can help overcome enemies and diseases through courage and discipline. The native may succeed in competitive or service-oriented fields.",
+      "7": "Sun in the 7th house influences marriage, partnership, and public dealings. The spouse may be dignified or authoritative; the native may seek a prominent or confident partner.",
+      "8": "Sun in the 8th house brings a focus on longevity, transformation, and hidden matters. The native may have interest in research, occult, or legacy; health and shared resources need care.",
+      "9": "Sun in the 9th house strengthens father, dharma, higher education, and long travel. The native tends to be fortunate, righteous, and inclined toward philosophy or authority in teaching.",
+      "10": "Sun in the 10th house is excellent for career and reputation. The native often holds a position of authority, enjoys government or leadership roles, and is seen in the limelight.",
+      "11": "Sun in the 11th house supports gains, fulfilment of desires, and networking. The native may achieve success through friends, elders, or authority and enjoy name and fame.",
+      "12": "Sun in the 12th house indicates expenses, foreign connections, or spirituality. The native may spend on noble causes, travel abroad, or seek solitude and inner growth."
+    },
+    "Moon": {
+      "1": "Moon in the 1st house gives a receptive, emotional, and changeable personality. The native is often popular, gentle, and sensitive; appearance and mood are strongly influenced by the Moon.",
+      "2": "Moon in the 2nd house supports wealth through liquids, trade, or mother. The native may have a pleasing speech, accumulated wealth, and comfort from family and possessions.",
+      "3": "Moon in the 3rd house strengthens courage, siblings, and short journeys. The native may be emotionally bold, creative in communication, and successful in local endeavours.",
+      "4": "Moon in the 4th house is very favourable for mother, property, and mental peace. The native enjoys domestic happiness, vehicles, and a nurturing home environment.",
+      "5": "Moon in the 5th house supports children, intellect, and speculation. The native may be imaginative, emotionally connected to progeny, and inclined toward creative or speculative pursuits.",
+      "6": "Moon in the 6th house can create fluctuations in health or relations with servants and competitors. When strong, the native may overcome these; when weak, stress and worry may arise.",
+      "7": "Moon in the 7th house influences marriage and partnership strongly. The spouse may be emotional, changeable, or beautiful; the native seeks an understanding and caring partner.",
+      "8": "Moon in the 8th house touches longevity, occult, and transformation. The native may have interest in mysteries or face emotional upheavals; longevity and shared resources need care.",
+      "9": "Moon in the 9th house supports fortune, mother, higher education, and travel. The native tends to be fortunate, devotional, and respected for wisdom or emotional intelligence.",
+      "10": "Moon in the 10th house favours career connected to public, women, or fluids. The native may work in hospitality, care, or positions that require emotional intelligence and popularity.",
+      "11": "Moon in the 11th house supports gains, fulfilment of wishes, and income. The native may profit through mother, women, or mass contact and enjoy growing prosperity.",
+      "12": "Moon in the 12th house indicates expenses, foreign stay, or spiritual solitude. The native may spend on emotions, travel abroad, or find peace in retreat and meditation."
+    },
+    "Mars": {
+      "1": "Mars in the 1st house gives courage, energy, and an assertive personality. The native tends to be bold, sometimes short-tempered, and capable of leadership and valorous action.",
+      "2": "Mars in the 2nd house influences wealth, family, and speech. The native may earn through land, metals, or courage but should guard against harsh speech or disputes over property.",
+      "3": "Mars in the 3rd house strongly supports courage, siblings, and short travels. The native is often brave, competitive, and successful in sports, engineering, or military pursuits.",
+      "4": "Mars in the 4th house affects mother, property, and peace at home. There may be change or strain in domestic matters; when well placed, the native may acquire property through effort.",
+      "5": "Mars in the 5th house influences children, intellect, and speculation. The native may be sharp-minded and bold in speculation but should be careful with risk and children’s health.",
+      "6": "Mars in the 6th house is favourable for overcoming enemies, diseases, and debt. The native may succeed in competition, litigation, or service and display courage in difficulties.",
+      "7": "Mars in the 7th house affects marriage and partnership; there may be delay, friction, or a dynamic spouse. Classic texts associate this with Mangal Dosha when in certain positions.",
+      "8": "Mars in the 8th house touches longevity, transformation, and unexpected events. The native may have interest in research or occult; accidents and surgery may need attention.",
+      "9": "Mars in the 9th house influences father, dharma, and long travel. The native may be bold in beliefs, inclined to law or religion, and may experience some strain with father or long journeys.",
+      "10": "Mars in the 10th house supports career in government, engineering, or authority. The native often holds a position of power, is respected for drive, and may excel in technical or leadership roles.",
+      "11": "Mars in the 11th house supports gains, fulfilment of desires, and elder siblings. The native may prosper through courage, land, or technical ability and achieve ambitions.",
+      "12": "Mars in the 12th house indicates expenses on land, machinery, or conflict; foreign travel or stay in hospitals may occur. Spiritually, the native may channel energy into discipline or retreat."
+    },
+    "Mercury": {
+      "1": "Mercury in the 1st house gives intelligence, wit, and versatility. The native is communicative, clever, and adaptable; often skilled in writing, business, or learning.",
+      "2": "Mercury in the 2nd house supports wealth through business, speech, and family. The native may have a way with words, success in trade, and accumulated knowledge and possessions.",
+      "3": "Mercury in the 3rd house strengthens writing, siblings, and short travel. The native may excel in communication, journalism, or local business and be clever in dealings.",
+      "4": "Mercury in the 4th house influences mother, education, and property. The native may enjoy learning, vehicles, and a mentally stimulating home environment.",
+      "5": "Mercury in the 5th house is favourable for intellect, children, and speculation. The native may be highly intelligent, creative, and successful in education, maths, or speculative ventures.",
+      "6": "Mercury in the 6th house can help in overcoming enemies and disease through cleverness. The native may work in service, health, or competition and use wit to resolve problems.",
+      "7": "Mercury in the 7th house influences marriage and partnership. The spouse may be intelligent, youthful, or communicative; the native seeks a mentally compatible and versatile partner.",
+      "8": "Mercury in the 8th house touches research, longevity, and secret matters. The native may have interest in mystery, accounts, or transformation; nervous health may need care.",
+      "9": "Mercury in the 9th house supports higher education, father, and dharma. The native may be learned, philosophical, and successful in long travel and intellectual pursuits.",
+      "10": "Mercury in the 10th house favours career in business, writing, or advisory roles. The native may hold a position requiring intelligence, communication, or calculation.",
+      "11": "Mercury in the 11th house supports gains through friends, business, and learning. The native may profit from writing, trade, or networks and fulfil intellectual desires.",
+      "12": "Mercury in the 12th house indicates expenses on learning, travel, or communication; foreign stay or confinement may occur. The native may find solace in reading, meditation, or subtle pursuits."
+    },
+    "Jupiter": {
+      "1": "Jupiter in the 1st house gives wisdom, optimism, and a noble personality. The native tends to be respected, virtuous, and fortunate; often blessed with knowledge and good character.",
+      "2": "Jupiter in the 2nd house supports wealth, family, and speech. The native may accumulate riches, enjoy a good family, and be known for wise or auspicious words.",
+      "3": "Jupiter in the 3rd house strengthens courage, siblings, and short travels. The native may be optimistic in action, helpful to siblings, and successful in local endeavours.",
+      "4": "Jupiter in the 4th house is highly favourable for mother, property, and happiness. The native enjoys domestic peace, vehicles, land, and a dignified, fortunate home life.",
+      "5": "Jupiter in the 5th house is excellent for children, intellect, and devotion. The native may be learned, blessed with progeny, and successful in education and speculative wisdom.",
+      "6": "Jupiter in the 6th house can help overcome enemies, disease, and debt through wisdom. The native may succeed in litigation, service, or health and support others in difficulty.",
+      "7": "Jupiter in the 7th house favours marriage and partnership. The spouse may be wise, wealthy, or virtuous; the native seeks a dignified and fortunate union.",
+      "8": "Jupiter in the 8th house touches longevity, research, and transformation. The native may have interest in philosophy or occult; when strong, Jupiter can protect longevity and lessen 8th-house strain.",
+      "9": "Jupiter in the 9th house is very auspicious for father, dharma, and higher knowledge. The native tends to be fortunate, righteous, learned, and successful in long travel and spiritual pursuits.",
+      "10": "Jupiter in the 10th house supports career in teaching, law, or administration. The native may hold a respected position, be an advisor or guide, and enjoy reputation and authority.",
+      "11": "Jupiter in the 11th house strongly supports gains, desires, and networking. The native may achieve wealth, fulfil aspirations, and benefit from elders and virtuous friends.",
+      "12": "Jupiter in the 12th house indicates expenses on charity, spirituality, or foreign travel. The native may find growth through solitude, higher learning, or service and may have foreign or spiritual connections."
+    },
+    "Venus": {
+      "1": "Venus in the 1st house gives charm, beauty, and a love of comfort. The native tends to be attractive, diplomatic, and fond of luxury, arts, and pleasing others.",
+      "2": "Venus in the 2nd house supports wealth, family, and speech. The native may accumulate riches through arts, luxury, or partnership and enjoy good food and possessions.",
+      "3": "Venus in the 3rd house strengthens creativity, siblings, and short travel. The native may be artistically inclined, successful in local ventures, and enjoy music or design.",
+      "4": "Venus in the 4th house favours mother, property, and vehicles. The native enjoys a comfortable home, luxury, and emotional and material security.",
+      "5": "Venus in the 5th house supports children, creativity, and speculation. The native may be artistic, romantic, and blessed with pleasing progeny and speculative gains.",
+      "6": "Venus in the 6th house can create ups and downs in service, health, or competition. When strong, the native may overcome these; indulgence and enemies may need attention.",
+      "7": "Venus in the 7th house is excellent for marriage and partnership. The spouse may be beautiful, artistic, or wealthy; the native seeks harmony, love, and a dignified relationship.",
+      "8": "Venus in the 8th house touches longevity, transformation, and spouse’s support. The native may have interest in occult or luxury in secret; longevity and shared resources need care.",
+      "9": "Venus in the 9th house supports father, dharma, fortune, and long travel. The native may be fortunate, artistic in philosophy, and successful in long travel.",
+      "10": "Venus in the 10th house favours career in arts, luxury, or diplomacy. The native may hold a position in design, entertainment, or hospitality and enjoy reputation and comfort.",
+      "11": "Venus in the 11th house supports gains, desires, and social success. The native may profit through arts, partnership, or networks and enjoy fulfilment of material and romantic wishes.",
+      "12": "Venus in the 12th house indicates expenses on pleasure, luxury, or partnership; foreign travel or retreat may bring artistic or spiritual solace."
+    },
+    "Saturn": {
+      "1": "Saturn in the 1st house gives discipline, maturity, and often a serious or older appearance. The native may face delays early in life but builds lasting success through patience and hard work.",
+      "2": "Saturn in the 2nd house influences wealth and family; gains may be slow but steady. The native may accumulate through service, land, or perseverance; speech may be measured or harsh.",
+      "3": "Saturn in the 3rd house affects courage, siblings, and short travel. The native may work hard for success in these areas; delays or obstacles may be overcome with persistence.",
+      "4": "Saturn in the 4th house can create delay or strain regarding mother, property, or peace. When well placed, the native may eventually gain land and stability through discipline.",
+      "5": "Saturn in the 5th house influences children, intellect, and speculation. There may be delay or worry in these matters; when strong, Saturn can give depth and longevity to gains.",
+      "6": "Saturn in the 6th house can help overcome enemies, disease, and debt through endurance. The native may succeed in service, litigation, or health-related work.",
+      "7": "Saturn in the 7th house often delays marriage or brings an older or responsible spouse. The native may seek stability and long-term commitment in partnership.",
+      "8": "Saturn in the 8th house has a strong connection to longevity, transformation, and discipline. The native may have interest in occult, research, or legacy; longevity can be extended with care.",
+      "9": "Saturn in the 9th house influences father, dharma, and long travel. There may be delay or responsibility in these areas; the native may be philosophical and enduring in belief.",
+      "10": "Saturn in the 10th house supports career through discipline, government, or long service. The native may hold a responsible position, earn respect over time, and excel in structured fields.",
+      "11": "Saturn in the 11th house supports gains achieved with delay but lasting. The native may prosper through elders, land, or service and fulfil ambitions through patience.",
+      "12": "Saturn in the 12th house indicates expenses, solitude, or foreign stay. The native may spend on karma, service, or property and find peace in discipline, retreat, or spiritual practice."
+    }
+  }
+}

@@ -355,7 +355,17 @@
                 </div>
             </div>
 
-            <!-- 2. Planetary Positions (D1) -->
+            <!-- 2. Kundali / Avakhada Insights -->
+            <div class="card col-span-12">
+                <div class="card-header">
+                    <h2>📿 Kundali Insights (Avakhada Details)</h2>
+                </div>
+                <div id="personality-insights-container">
+                    <p style="color: var(--text-gray);">Generate chart to see personality, strengths, and how the world sees you.</p>
+                </div>
+            </div>
+
+            <!-- 3. Planetary Positions (D1) -->
             <div class="card col-span-6">
                 <div class="card-header">
                     <h2>🪐 Planetary Positions (D1 Rasi)</h2>
@@ -376,7 +386,7 @@
                 </table>
             </div>
 
-            <!-- 3. Divisional Charts -->
+            <!-- 4. Divisional Charts -->
             <div class="card col-span-6">
                 <div class="card-header">
                     <h2>🔢 Divisional Charts</h2>
@@ -392,7 +402,7 @@
                 </div>
             </div>
 
-            <!-- 4. Dashas -->
+            <!-- 5. Dashas -->
             <div class="card col-span-4">
                 <div class="card-header">
                     <h2>⏳ Vimshottari Dasha</h2>
@@ -402,7 +412,7 @@
                 </div>
             </div>
 
-            <!-- 5. Ashtakavarga -->
+            <!-- 6. Ashtakavarga -->
             <div class="card col-span-4">
                 <div class="card-header">
                     <h2>💪 Ashtakavarga Points</h2>
@@ -412,7 +422,7 @@
                 </div>
             </div>
 
-            <!-- 6. Raw Data debug -->
+            <!-- 7. Raw Data debug -->
             <div class="card col-span-4">
                 <div class="card-header">
                     <h2>🛠️ Raw Data</h2>
@@ -482,8 +492,19 @@
         function renderDashboard(data) {
             console.log('Rendering Data:', data);
 
+            // Normalize: allow charts.d1 as d1_chart for planets table
+            if (!data.d1_chart && data.charts && data.charts.d1) {
+                data.d1_chart = data.charts.d1;
+            }
+
             // Raw Data Preview
             document.getElementById('raw-json').textContent = JSON.stringify(data, null, 2);
+
+            // Chart datetime in header
+            if (data.basic_details) {
+                const b = data.basic_details;
+                document.getElementById('chart-datetime').textContent = [b.dob, b.time, b.place].filter(Boolean).join(' · ') || '';
+            }
 
             // 1. Panchanga
             if (data.panchanga) {
@@ -532,7 +553,40 @@
                 planetsBody.innerHTML = '<tr><td colspan="5">No planetary data found in response</td></tr>';
             }
 
-            // 3. Divisional Charts
+            // 2. Kundali Insights (Avakhada Details)
+            const insightsContainer = document.getElementById('personality-insights-container');
+            if (data.sections && data.sections.personality_insights && !data.sections.personality_insights.error) {
+                const pi = data.sections.personality_insights;
+                const sub = (label, content) => content ? `<div class="insight-block" style="margin-bottom: 1.25rem;"><div class="insight-label" style="color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.35rem;">${label}</div><div class="insight-text" style="color: var(--text-light); line-height: 1.5;">${content}</div></div>` : '';
+                const strengthsHtml = Array.isArray(pi.natural_strengths) && pi.natural_strengths.length
+                    ? '<ul style="margin: 0; padding-left: 1.25rem; color: var(--text-light); line-height: 1.6;">' +
+                      pi.natural_strengths.map(s => `<li><strong style="color: var(--secondary);">${s.planet}</strong>: ${s.meaning || ''}</li>`).join('') + '</ul>'
+                    : '<p style="color: var(--text-gray);">No strong planet placements highlighted.</p>';
+                const negHtml = Array.isArray(pi.negative_traits) && pi.negative_traits.length
+                    ? '<ul style="margin: 0; padding-left: 1.25rem; color: var(--text-light); line-height: 1.6;">' +
+                      pi.negative_traits.map(t => `<li>${t}</li>`).join('') + '</ul>'
+                    : '<p style="color: var(--text-gray);">No significant negative traits noted from the chart.</p>';
+                const strongPlanetsHtml = Array.isArray(pi.strong_planets_in_houses) && pi.strong_planets_in_houses.length
+                    ? '<ul style="margin: 0; padding-left: 1.25rem; color: var(--text-light); line-height: 1.6; list-style: none;">' +
+                      pi.strong_planets_in_houses.map(s => {
+                          const ord = s.house === 1 ? '1st' : s.house === 2 ? '2nd' : s.house === 3 ? '3rd' : s.house + 'th';
+                          return '<li style="margin-bottom: 0.75rem;"><strong style="color: var(--secondary);">' + s.planet + '</strong> is in the <strong>' + ord + ' house</strong> (' + (s.sign || '') + '). ' + (s.meaning || '') + '</li>';
+                      }).join('') + '</ul>'
+                    : '<p style="color: var(--text-gray);">No strong planet placements in Kendra or Trikona or in own/exaltation sign.</p>';
+                insightsContainer.innerHTML =
+                    sub('Personality (based on ' + (pi.lagna_sign || 'Lagna') + ' + ' + (pi.moon_nakshatra || 'Moon nakshatra') + ')', pi.personality) +
+                    sub('Strong planets in your Kundali', strongPlanetsHtml) +
+                    sub('Your Natural Strengths (planets with strength in your chart)', strengthsHtml) +
+                    sub('Some negative traits or challenges', negHtml) +
+                    sub('How the World Sees You', pi.how_the_world_sees_you);
+            } else {
+                const err = data.sections && data.sections.personality_insights && data.sections.personality_insights.error;
+                insightsContainer.innerHTML = err
+                    ? `<p style="color: #f87171;">Insights unavailable: ${err}</p>`
+                    : '<p style="color: var(--text-gray);">Generate chart to see personality, strengths, and how the world sees you.</p>';
+            }
+
+            // 4. Divisional Charts
             // Setup clicks for tabs logic... (simplified here for brevity)
             // Storing data globally for the tab switcher
             window.chartData = data;
