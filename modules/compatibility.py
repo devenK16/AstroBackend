@@ -214,7 +214,9 @@ def calculate_compatibility_details(chart, name: str = "", chart_result: dict = 
     varna = _get_varna_from_sign(moon_sign)
 
     # Paya: by Janma Nakshatra (Revati/Ashwini/Bharani=Gold; Kritika/Rohini/Mrigashira=Iron; Ardra..Anuradha=Silver; Jyeshtha..Uttara Bhadrapada=Copper)
-    paya = COMPAT_DATA["nakshatra_paya"].get(moon_nakshatra, "Unknown")
+    paya_key = COMPAT_DATA["nakshatra_paya"].get(moon_nakshatra, "Unknown")
+    paya_display = {"Dhana": "Gold", "Rajat": "Silver", "Tamra": "Copper", "Loh": "Iron"}.get(paya_key, paya_key)
+    paya = paya_display
 
     # Name alphabet: only from Janma Nakshatra Pada letters (never from user's name)
     name_alphabet = _get_name_letters_for_nakshatra_pada(moon_nakshatra, moon_pada or 1)
