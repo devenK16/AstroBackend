@@ -13,6 +13,7 @@ import os
 
 # Import our analysis modules
 from modules.compatibility import calculate_compatibility_details
+from modules.kundali_summary import get_kundali_summary
 from modules.career_analyzer import analyze_career
 from modules.wealth_analyzer import analyze_wealth
 from modules.health_analyzer import analyze_health
@@ -91,9 +92,9 @@ def get_birth_chart():
         else:
             chart_result = json_data
 
-        # 3. Calculate compatibility details
+        # 3. Calculate compatibility details (use chart_result so we read same Moon data as in response)
         try:
-            compatibility = calculate_compatibility_details(chart, data['name'])
+            compatibility = calculate_compatibility_details(chart, data['name'], chart_result=chart_result)
         except Exception as e:
             compatibility = {"error": str(e)}
 
@@ -163,6 +164,19 @@ def get_birth_chart():
         except Exception as e:
             sections["dasha"] = {"error": str(e)}
 
+        # Kundali summary: Manglik, Sade Sati, current Dasha (for display above charts)
+        try:
+            kundali_summary = get_kundali_summary(
+                chart,
+                yoga_dosha_result=sections.get("yoga_dosha"),
+                dasha_data=sections.get("dasha"),
+                latitude=float(data.get("latitude")),
+                longitude=float(data.get("longitude")),
+                timezone_offset=float(data.get("timezone", 5.5))
+            )
+        except Exception as e:
+            kundali_summary = {"manglik_status": "Unknown", "sade_sati_status": "Unknown", "current_dasha": None, "error": str(e)}
+
         # 7. Build complete response: numerology and dasha ONLY inside sections (never at top level)
         result = {
             "success": True,
@@ -178,6 +192,7 @@ def get_birth_chart():
             "charts": charts_data,
             "compatibility": compatibility,
             "panchanga": panchanga_data,
+            "kundali_summary": kundali_summary,
             "sections": sections,
             "input": {
                 'name': data['name'],

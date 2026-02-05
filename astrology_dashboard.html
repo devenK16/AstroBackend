@@ -355,6 +355,16 @@
                 </div>
             </div>
 
+            <!-- Kundali status bar: Manglik, Sade Sati, Current Dasha (above charts) -->
+            <div class="card col-span-12" id="kundali-summary-card" style="display: none;">
+                <div class="card-header">
+                    <h2>📋 Kundali Status</h2>
+                </div>
+                <div class="panchanga-grid" id="kundali-summary-container">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
             <!-- 2. Kundali / Avakhada Insights -->
             <div class="card col-span-12">
                 <div class="card-header">
@@ -519,6 +529,21 @@
                 `;
             }
 
+            // Kundali summary: Manglik, Sade Sati, Current Dasha
+            const kundaliCard = document.getElementById('kundali-summary-card');
+            const kundaliContainer = document.getElementById('kundali-summary-container');
+            if (data.kundali_summary && !data.kundali_summary.error) {
+                const ks = data.kundali_summary;
+                kundaliCard.style.display = 'block';
+                kundaliContainer.innerHTML = `
+                    <div class="stat-box"><span class="stat-label">Manglik status</span><span class="stat-value">${ks.manglik_status || '-'}</span></div>
+                    <div class="stat-box"><span class="stat-label">Sade Sati</span><span class="stat-value">${ks.sade_sati_status || '-'}</span></div>
+                    <div class="stat-box"><span class="stat-label">Current Dasha</span><span class="stat-value">${ks.current_dasha || '-'}</span></div>
+                `;
+            } else {
+                kundaliCard.style.display = 'none';
+            }
+
             // 2. Planets (D1)
             const planetsBody = document.getElementById('planets-body');
             planetsBody.innerHTML = '';
@@ -586,7 +611,32 @@
                     : '<p style="color: var(--text-gray);">Generate chart to see personality, strengths, and how the world sees you.</p>';
             }
 
-            // 4. Divisional Charts
+            // 4. Dasha section: current period + meanings
+            const dashaContent = document.getElementById('dasha-content');
+            if (data.sections && data.sections.dasha && !data.sections.dasha.error) {
+                const dasha = data.sections.dasha;
+                const sum = dasha.summary || {};
+                const maha = sum.current_mahadasha || '-';
+                const anta = sum.current_antardasha || '-';
+                const mahaMeaning = sum.current_mahadasha_meaning || '';
+                const antaMeaning = sum.current_antardasha_meaning || '';
+                const mahaDur = sum.current_mahadasha_duration_years;
+                let html = '<p style="margin-bottom: 1rem;"><strong style="color: var(--secondary);">Current period:</strong> ' + maha + ' – ' + anta + '</p>';
+                if (mahaMeaning) {
+                    html += '<div style="margin-bottom: 1rem;"><div style="color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.35rem;">' + maha + ' Mahadasha' + (mahaDur ? ' (' + mahaDur + ' years)' : '') + '</div><p style="color: var(--text-light); line-height: 1.6; white-space: pre-line;">' + mahaMeaning + '</p></div>';
+                }
+                if (antaMeaning) {
+                    html += '<div><div style="color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.35rem;">' + maha + ' – ' + anta + ' (Antardasha)</div><p style="color: var(--text-light); line-height: 1.6; white-space: pre-line;">' + antaMeaning + '</p></div>';
+                }
+                if (!mahaMeaning && !antaMeaning) {
+                    html += '<p style="color: var(--text-gray);">Dasha dates and balance are in Raw Data below.</p>';
+                }
+                dashaContent.innerHTML = html;
+            } else {
+                dashaContent.innerHTML = '<p style="color: var(--text-gray);">Generate chart to see current Vimshottari Dasha and meanings.</p>';
+            }
+
+            // 5. Divisional Charts
             // Setup clicks for tabs logic... (simplified here for brevity)
             // Storing data globally for the tab switcher
             window.chartData = data;

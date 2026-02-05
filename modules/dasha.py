@@ -1,9 +1,23 @@
 """
 Dasha Module - Extract Vimshottari Dasha data from jyotishganit chart.
 Exposes mahadashas, antardashas, pratyantardashas, current/upcoming periods, and balance.
+Attaches Mahadasha and Antardasha meaning text from data/dasha_meanings.json when available.
 """
 
+import os
+import json
 from datetime import datetime, date
+
+# Load dasha meanings (Mahadasha summary + optional Antardasha descriptions)
+_data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+_meanings_path = os.path.join(_data_dir, 'dasha_meanings.json')
+DASHA_MEANINGS = {}
+if os.path.isfile(_meanings_path):
+    try:
+        with open(_meanings_path, 'r', encoding='utf-8') as f:
+            DASHA_MEANINGS = json.load(f)
+    except Exception:
+        pass
 
 
 def _serialize_value(v):
@@ -48,8 +62,31 @@ def get_dasha_data(chart):
     summary = _build_summary(raw)
     if summary:
         out['summary'] = summary
+        # Attach meaning text for current Mahadasha and Mahadasha–Antardasha
+        _attach_dasha_meanings(out['summary'])
     
     return out
+
+
+def _attach_dasha_meanings(summary):
+    """Add mahadasha_meaning and antardasha_meaning (or period_meaning) from dasha_meanings.json."""
+    if not summary or not DASHA_MEANINGS:
+        return
+    maha = summary.get('current_mahadasha')
+    anta = summary.get('current_antardasha')
+    maha_data = (DASHA_MEANINGS.get('mahadasha') or {}).get(maha) if maha else None
+    if maha_data and isinstance(maha_data, dict):
+        summary['current_mahadasha_meaning'] = maha_data.get('summary') or maha_data.get('description')
+        summary['current_mahadasha_duration_years'] = maha_data.get('duration_years')
+    elif maha:
+        summary['current_mahadasha_meaning'] = None
+    antardasha_map = DASHA_MEANINGS.get('antardasha') or {}
+    if maha and anta:
+        key = f"{maha}-{anta}"
+        summary['current_antardasha_meaning'] = antardasha_map.get(key)
+        if not summary.get('current_antardasha_meaning'):
+            summary['current_antardasha_meaning'] = DASHA_MEANINGS.get('antardasha_note')
+    return
 
 
 def _build_summary(raw):
