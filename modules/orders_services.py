@@ -57,11 +57,18 @@ def validate_create_payload(data: dict) -> tuple[bool, str]:
 
 def create_razorpay_order(amount_paise: int, receipt_prefix: str = "order_"):
     """Create order in Razorpay (test mode). Returns dict with order_id, key_id, amount_paise, currency."""
-    import razorpay
+    try:
+        import razorpay
+    except ImportError:
+        raise RuntimeError(
+            "razorpay package not installed. On the server run: pip install razorpay"
+        )
     key_id = os.environ.get("RAZORPAY_KEY_ID", "")
     key_secret = os.environ.get("RAZORPAY_KEY_SECRET", "")
     if not key_id or not key_secret:
-        raise RuntimeError("RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET must be set")
+        raise RuntimeError(
+            "RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET must be set in the server environment"
+        )
     client = razorpay.Client(auth=(key_id, key_secret))
     receipt = receipt_prefix + str(uuid.uuid4()).replace("-", "")[:16]
     order = client.order.create(
